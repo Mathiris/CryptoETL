@@ -2,6 +2,6 @@ duckdb:
   outputs:
     dev:
       type: duckdb
-      path: ../database/crypto_vault.db
+      path: "/home/gianotti/Documents/CryptoETL/database/crypto_vault.db"
       threads: 1
   target: dev
