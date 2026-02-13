@@ -104,3 +104,24 @@
 [2026-02-13T13:08:29.693+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:29.693+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-02-13T13:08:29.715+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:29.714+0100] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
 [2026-02-13T13:08:29.745+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.105 seconds
+[2026-02-13T13:09:37.159+0100] {processor.py:186} INFO - Started process (PID=36594) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2026-02-13T13:09:37.161+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2026-02-13T13:09:37.163+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:09:37.162+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2026-02-13T13:09:37.178+0100] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2026-02-13T13:09:37.202+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:09:37.201+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:09:37.222+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:09:37.222+0100] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2026-02-13T13:09:37.253+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.103 seconds
+[2026-02-13T13:10:47.757+0100] {processor.py:186} INFO - Started process (PID=36712) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2026-02-13T13:10:47.760+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2026-02-13T13:10:47.763+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:10:47.762+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2026-02-13T13:10:47.778+0100] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2026-02-13T13:10:47.803+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:10:47.803+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:10:47.827+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:10:47.827+0100] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2026-02-13T13:10:47.865+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.117 seconds
+[2026-02-13T13:11:52.681+0100] {processor.py:186} INFO - Started process (PID=36794) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2026-02-13T13:11:52.684+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2026-02-13T13:11:52.686+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:11:52.685+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2026-02-13T13:11:52.702+0100] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2026-02-13T13:11:52.727+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:11:52.726+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:11:52.748+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:11:52.747+0100] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2026-02-13T13:11:52.779+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.106 seconds

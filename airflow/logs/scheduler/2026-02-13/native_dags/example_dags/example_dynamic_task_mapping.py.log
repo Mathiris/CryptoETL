@@ -97,3 +97,24 @@
 [2026-02-13T13:07:51.746+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:07:51.745+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-02-13T13:07:51.765+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:07:51.765+0100] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping to None, run_after=None
 [2026-02-13T13:07:51.796+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.106 seconds
+[2026-02-13T13:08:57.563+0100] {processor.py:186} INFO - Started process (PID=36500) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2026-02-13T13:08:57.566+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2026-02-13T13:08:57.568+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:57.567+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2026-02-13T13:08:57.583+0100] {processor.py:925} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2026-02-13T13:08:57.609+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:57.608+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:08:57.628+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:57.628+0100] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping to None, run_after=None
+[2026-02-13T13:08:57.659+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.106 seconds
+[2026-02-13T13:10:07.505+0100] {processor.py:186} INFO - Started process (PID=36626) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2026-02-13T13:10:07.508+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2026-02-13T13:10:07.510+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:10:07.509+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2026-02-13T13:10:07.525+0100] {processor.py:925} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2026-02-13T13:10:07.549+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:10:07.548+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:10:07.568+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:10:07.568+0100] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping to None, run_after=None
+[2026-02-13T13:10:07.600+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.105 seconds
+[2026-02-13T13:11:12.378+0100] {processor.py:186} INFO - Started process (PID=36745) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2026-02-13T13:11:12.379+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2026-02-13T13:11:12.382+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:11:12.381+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2026-02-13T13:11:12.399+0100] {processor.py:925} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2026-02-13T13:11:12.427+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:11:12.426+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:11:12.450+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:11:12.450+0100] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping to None, run_after=None
+[2026-02-13T13:11:12.488+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.121 seconds

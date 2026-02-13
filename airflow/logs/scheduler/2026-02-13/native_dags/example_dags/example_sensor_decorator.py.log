@@ -104,3 +104,17 @@
 [2026-02-13T13:08:42.739+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:42.738+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-02-13T13:08:42.759+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:42.759+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
 [2026-02-13T13:08:42.790+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.102 seconds
+[2026-02-13T13:09:52.510+0100] {processor.py:186} INFO - Started process (PID=36608) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-02-13T13:09:52.511+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-02-13T13:09:52.513+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:09:52.513+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-02-13T13:09:52.529+0100] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-02-13T13:09:52.554+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:09:52.554+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:09:52.579+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:09:52.579+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-02-13T13:09:52.617+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.118 seconds
+[2026-02-13T13:10:56.829+0100] {processor.py:186} INFO - Started process (PID=36722) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-02-13T13:10:56.832+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-02-13T13:10:56.835+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:10:56.834+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-02-13T13:10:56.850+0100] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-02-13T13:10:56.873+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:10:56.872+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:10:56.895+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:10:56.894+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-02-13T13:10:56.925+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.106 seconds

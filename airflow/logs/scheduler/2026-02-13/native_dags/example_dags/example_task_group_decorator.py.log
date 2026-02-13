@@ -104,3 +104,24 @@
 [2026-02-13T13:08:21.759+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:21.759+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-02-13T13:08:21.781+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:21.780+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
 [2026-02-13T13:08:21.812+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.127 seconds
+[2026-02-13T13:09:28.264+0100] {processor.py:186} INFO - Started process (PID=36568) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2026-02-13T13:09:28.266+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2026-02-13T13:09:28.269+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:09:28.268+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2026-02-13T13:09:28.300+0100] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2026-02-13T13:09:28.337+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:09:28.337+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:09:28.360+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:09:28.359+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2026-02-13T13:09:28.396+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.142 seconds
+[2026-02-13T13:10:39.949+0100] {processor.py:186} INFO - Started process (PID=36696) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2026-02-13T13:10:39.952+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2026-02-13T13:10:39.954+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:10:39.954+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2026-02-13T13:10:39.982+0100] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2026-02-13T13:10:40.013+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:10:40.013+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:10:40.032+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:10:40.032+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2026-02-13T13:10:40.063+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.123 seconds
+[2026-02-13T13:11:44.010+0100] {processor.py:186} INFO - Started process (PID=36775) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2026-02-13T13:11:44.013+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2026-02-13T13:11:44.015+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:11:44.014+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2026-02-13T13:11:44.040+0100] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2026-02-13T13:11:44.070+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:11:44.070+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:11:44.090+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:11:44.089+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2026-02-13T13:11:44.121+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.119 seconds

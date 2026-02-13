@@ -97,3 +97,24 @@
 [2026-02-13T13:08:33.466+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:33.466+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-02-13T13:08:33.502+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:33.502+0100] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
 [2026-02-13T13:08:33.534+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.127 seconds
+[2026-02-13T13:09:41.076+0100] {processor.py:186} INFO - Started process (PID=36597) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2026-02-13T13:09:41.079+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2026-02-13T13:09:41.081+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:09:41.080+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2026-02-13T13:09:41.099+0100] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2026-02-13T13:09:41.128+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:09:41.127+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:09:41.165+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:09:41.165+0100] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:09:41.203+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.138 seconds
+[2026-02-13T13:10:50.771+0100] {processor.py:186} INFO - Started process (PID=36715) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2026-02-13T13:10:50.774+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2026-02-13T13:10:50.776+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:10:50.775+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2026-02-13T13:10:50.794+0100] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2026-02-13T13:10:50.821+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:10:50.820+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:10:50.855+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:10:50.855+0100] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:10:50.886+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.124 seconds
+[2026-02-13T13:11:55.553+0100] {processor.py:186} INFO - Started process (PID=36813) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2026-02-13T13:11:55.556+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2026-02-13T13:11:55.558+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:11:55.558+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2026-02-13T13:11:55.576+0100] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2026-02-13T13:11:55.602+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:11:55.602+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:11:55.636+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:11:55.636+0100] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:11:55.666+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.122 seconds

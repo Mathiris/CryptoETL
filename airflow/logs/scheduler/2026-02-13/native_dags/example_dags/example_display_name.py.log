@@ -97,3 +97,24 @@
 [2026-02-13T13:07:50.462+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:07:50.462+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-02-13T13:07:50.482+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:07:50.482+0100] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
 [2026-02-13T13:07:50.513+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.099 seconds
+[2026-02-13T13:08:56.294+0100] {processor.py:186} INFO - Started process (PID=36499) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-02-13T13:08:56.297+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-02-13T13:08:56.300+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:56.299+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-02-13T13:08:56.313+0100] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-02-13T13:08:56.338+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:56.337+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:08:56.358+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:56.358+0100] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-02-13T13:08:56.391+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.107 seconds
+[2026-02-13T13:10:06.224+0100] {processor.py:186} INFO - Started process (PID=36621) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-02-13T13:10:06.227+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-02-13T13:10:06.229+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:10:06.228+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-02-13T13:10:06.241+0100] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-02-13T13:10:06.264+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:10:06.264+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:10:06.286+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:10:06.285+0100] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-02-13T13:10:06.318+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.103 seconds
+[2026-02-13T13:11:11.112+0100] {processor.py:186} INFO - Started process (PID=36744) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-02-13T13:11:11.115+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-02-13T13:11:11.117+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:11:11.116+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-02-13T13:11:11.131+0100] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-02-13T13:11:11.156+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:11:11.155+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:11:11.180+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:11:11.179+0100] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-02-13T13:11:11.219+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.116 seconds
