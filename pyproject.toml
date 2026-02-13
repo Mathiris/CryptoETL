@@ -1,0 +1,12 @@
+[project]
+name = "cryptoetl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "airbyte>=0.14.0",
+    "apache-airflow>=2.8.0",
+    "dbt-duckdb>=1.7.0",
+    "duckdb>=0.10.0",
+]
