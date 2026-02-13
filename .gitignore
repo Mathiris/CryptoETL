@@ -9,12 +9,14 @@ database/
 *.db
 *.db.wal
 .venv
+airflow/airflow.cfg
+airflow/airflow.db
+airflow/airflow.db-journal
+airflow/airflow-webserver.pid
+airflow/webserver_config.py
 
-airflow/
-airflow.cfg
-airflow.db
-logs/
-plugins/
+airflow/logs/
+!airflow/dags/
 
 .env
 .venv/
