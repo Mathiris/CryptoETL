@@ -128,3 +128,13 @@
 [2026-02-13T13:20:15.279+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:15.279+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
 [2026-02-13T13:20:15.284+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
 [2026-02-13T13:20:15.300+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.035 seconds
+[2026-02-13T13:21:18.609+0100] {processor.py:186} INFO - Started process (PID=37886) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2026-02-13T13:21:18.612+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-02-13T13:21:18.614+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:18.613+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2026-02-13T13:21:18.619+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2026-02-13T13:21:18.636+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.037 seconds
+[2026-02-13T13:22:20.139+0100] {processor.py:186} INFO - Started process (PID=37999) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2026-02-13T13:22:20.144+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-02-13T13:22:20.146+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:20.146+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2026-02-13T13:22:20.153+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2026-02-13T13:22:20.179+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.059 seconds

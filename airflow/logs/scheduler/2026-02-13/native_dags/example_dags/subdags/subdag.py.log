@@ -128,3 +128,13 @@
 [2026-02-13T13:20:14.116+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:14.115+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
 [2026-02-13T13:20:14.120+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
 [2026-02-13T13:20:14.138+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.037 seconds
+[2026-02-13T13:21:17.441+0100] {processor.py:186} INFO - Started process (PID=37885) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-02-13T13:21:17.444+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2026-02-13T13:21:17.446+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:17.445+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-02-13T13:21:17.449+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-02-13T13:21:17.464+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.033 seconds
+[2026-02-13T13:22:18.926+0100] {processor.py:186} INFO - Started process (PID=37997) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-02-13T13:22:18.929+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2026-02-13T13:22:18.931+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:18.930+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-02-13T13:22:18.934+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2026-02-13T13:22:18.950+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.033 seconds

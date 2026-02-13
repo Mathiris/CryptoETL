@@ -181,3 +181,17 @@
 [2026-02-13T13:20:29.424+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:29.424+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-02-13T13:20:29.468+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:29.468+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-02-13 12:18:00+00:00, run_after=2026-02-13 12:20:00+00:00
 [2026-02-13T13:20:29.505+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.138 seconds
+[2026-02-13T13:21:32.981+0100] {processor.py:186} INFO - Started process (PID=37920) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-02-13T13:21:32.983+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-02-13T13:21:32.986+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:32.985+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-02-13T13:21:33.007+0100] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-02-13T13:21:33.033+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:33.032+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:21:33.078+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:33.078+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-02-13 12:18:00+00:00, run_after=2026-02-13 12:20:00+00:00
+[2026-02-13T13:21:33.120+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.148 seconds
+[2026-02-13T13:22:37.203+0100] {processor.py:186} INFO - Started process (PID=38562) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-02-13T13:22:37.207+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-02-13T13:22:37.209+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:37.208+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-02-13T13:22:37.322+0100] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-02-13T13:22:37.437+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:37.437+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:22:37.726+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:37.726+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-02-13 12:20:00+00:00, run_after=2026-02-13 12:22:00+00:00
+[2026-02-13T13:22:37.947+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.801 seconds

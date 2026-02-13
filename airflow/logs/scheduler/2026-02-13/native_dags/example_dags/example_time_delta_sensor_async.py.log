@@ -181,3 +181,17 @@
 [2026-02-13T13:20:26.425+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:26.425+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-02-13T13:20:26.452+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:26.451+0100] {dag.py:4180} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
 [2026-02-13T13:20:26.491+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.123 seconds
+[2026-02-13T13:21:29.179+0100] {processor.py:186} INFO - Started process (PID=37917) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2026-02-13T13:21:29.182+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2026-02-13T13:21:29.184+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:29.183+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2026-02-13T13:21:29.196+0100] {processor.py:925} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2026-02-13T13:21:29.221+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:29.221+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:21:29.243+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:29.243+0100] {dag.py:4180} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2026-02-13T13:21:29.275+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.106 seconds
+[2026-02-13T13:22:31.845+0100] {processor.py:186} INFO - Started process (PID=38277) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2026-02-13T13:22:31.847+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2026-02-13T13:22:31.850+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:31.849+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2026-02-13T13:22:31.866+0100] {processor.py:925} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2026-02-13T13:22:31.901+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:31.900+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:22:31.933+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:31.933+0100] {dag.py:4180} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2026-02-13T13:22:32.009+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.187 seconds

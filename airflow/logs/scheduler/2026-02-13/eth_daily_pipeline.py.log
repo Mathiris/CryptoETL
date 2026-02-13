@@ -258,3 +258,24 @@
 [2026-02-13T13:20:43.425+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:43.425+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-02-13T13:20:43.459+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:43.459+0100] {dag.py:4180} INFO - Setting next_dagrun for eth_daily_pipeline to 2026-02-14 00:00:00+00:00, run_after=2026-02-15 00:00:00+00:00
 [2026-02-13T13:20:43.488+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/airflow/dags/eth_daily_pipeline.py took 0.120 seconds
+[2026-02-13T13:21:15.183+0100] {processor.py:186} INFO - Started process (PID=37880) to work on /home/gianotti/Documents/CryptoETL/airflow/dags/eth_daily_pipeline.py
+[2026-02-13T13:21:15.185+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/airflow/dags/eth_daily_pipeline.py for tasks to queue
+[2026-02-13T13:21:15.187+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:15.186+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/airflow/dags/eth_daily_pipeline.py
+[2026-02-13T13:21:15.206+0100] {processor.py:925} INFO - DAG(s) 'eth_daily_pipeline' retrieved from /home/gianotti/Documents/CryptoETL/airflow/dags/eth_daily_pipeline.py
+[2026-02-13T13:21:15.229+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:15.229+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:21:15.264+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:15.264+0100] {dag.py:4180} INFO - Setting next_dagrun for eth_daily_pipeline to 2026-02-14 00:00:00+00:00, run_after=2026-02-15 00:00:00+00:00
+[2026-02-13T13:21:15.295+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/airflow/dags/eth_daily_pipeline.py took 0.122 seconds
+[2026-02-13T13:21:46.088+0100] {processor.py:186} INFO - Started process (PID=37935) to work on /home/gianotti/Documents/CryptoETL/airflow/dags/eth_daily_pipeline.py
+[2026-02-13T13:21:46.091+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/airflow/dags/eth_daily_pipeline.py for tasks to queue
+[2026-02-13T13:21:46.093+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:46.093+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/airflow/dags/eth_daily_pipeline.py
+[2026-02-13T13:21:46.113+0100] {processor.py:925} INFO - DAG(s) 'eth_daily_pipeline' retrieved from /home/gianotti/Documents/CryptoETL/airflow/dags/eth_daily_pipeline.py
+[2026-02-13T13:21:46.136+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:46.136+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:21:46.171+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:46.171+0100] {dag.py:4180} INFO - Setting next_dagrun for eth_daily_pipeline to 2026-02-14 00:00:00+00:00, run_after=2026-02-15 00:00:00+00:00
+[2026-02-13T13:21:46.204+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/airflow/dags/eth_daily_pipeline.py took 0.125 seconds
+[2026-02-13T13:22:17.378+0100] {processor.py:186} INFO - Started process (PID=37995) to work on /home/gianotti/Documents/CryptoETL/airflow/dags/eth_daily_pipeline.py
+[2026-02-13T13:22:17.379+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/airflow/dags/eth_daily_pipeline.py for tasks to queue
+[2026-02-13T13:22:17.381+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:17.380+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/airflow/dags/eth_daily_pipeline.py
+[2026-02-13T13:22:17.399+0100] {processor.py:925} INFO - DAG(s) 'eth_daily_pipeline' retrieved from /home/gianotti/Documents/CryptoETL/airflow/dags/eth_daily_pipeline.py
+[2026-02-13T13:22:17.423+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:17.422+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:22:17.455+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:17.454+0100] {dag.py:4180} INFO - Setting next_dagrun for eth_daily_pipeline to 2026-02-14 00:00:00+00:00, run_after=2026-02-15 00:00:00+00:00
+[2026-02-13T13:22:17.486+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/airflow/dags/eth_daily_pipeline.py took 0.118 seconds

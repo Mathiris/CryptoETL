@@ -9,6 +9,8 @@ database/
 *.db
 *.db.wal
 .venv
+
+airflow/
 airflow.cfg
 airflow.db
 logs/
@@ -17,6 +19,3 @@ plugins/
 .env
 .venv/
 env/
-
-__pycache__/
-*.pyc

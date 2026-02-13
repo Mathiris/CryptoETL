@@ -174,3 +174,10 @@
 [2026-02-13T13:20:41.179+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:41.178+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-02-13T13:20:41.212+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:41.211+0100] {dag.py:4180} INFO - Setting next_dagrun for example_weekday_branch_operator to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
 [2026-02-13T13:20:41.242+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.120 seconds
+[2026-02-13T13:21:44.456+0100] {processor.py:186} INFO - Started process (PID=37931) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2026-02-13T13:21:44.458+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2026-02-13T13:21:44.460+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:44.459+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2026-02-13T13:21:44.477+0100] {processor.py:925} INFO - DAG(s) 'example_weekday_branch_operator' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2026-02-13T13:21:44.504+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:44.503+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:21:44.542+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:44.541+0100] {dag.py:4180} INFO - Setting next_dagrun for example_weekday_branch_operator to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:21:44.578+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.132 seconds

@@ -214,3 +214,11 @@
 [2026-02-13T13:21:04.334+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:04.334+0100] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
 [2026-02-13T13:21:04.339+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:04.339+0100] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
 [2026-02-13T13:21:04.369+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.115 seconds
+[2026-02-13T13:22:05.603+0100] {processor.py:186} INFO - Started process (PID=37970) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2026-02-13T13:22:05.606+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2026-02-13T13:22:05.608+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:05.607+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2026-02-13T13:22:05.623+0100] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2026-02-13T13:22:05.654+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:05.654+0100] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-02-13T13:22:05.676+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:05.675+0100] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2026-02-13T13:22:05.682+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:05.681+0100] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2026-02-13T13:22:05.713+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.122 seconds

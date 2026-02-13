@@ -181,3 +181,17 @@
 [2026-02-13T13:20:34.237+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:34.237+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-02-13T13:20:34.258+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:34.258+0100] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
 [2026-02-13T13:20:34.289+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.108 seconds
+[2026-02-13T13:21:37.870+0100] {processor.py:186} INFO - Started process (PID=37924) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2026-02-13T13:21:37.871+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2026-02-13T13:21:37.873+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:37.873+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2026-02-13T13:21:37.890+0100] {processor.py:925} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2026-02-13T13:21:37.921+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:37.921+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:21:37.948+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:37.948+0100] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
+[2026-02-13T13:21:37.985+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.124 seconds
+[2026-02-13T13:22:44.705+0100] {processor.py:186} INFO - Started process (PID=38649) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2026-02-13T13:22:44.721+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2026-02-13T13:22:44.738+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:44.723+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2026-02-13T13:22:44.814+0100] {processor.py:925} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2026-02-13T13:22:44.863+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:44.863+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:22:44.896+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:44.896+0100] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
+[2026-02-13T13:22:44.970+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.319 seconds

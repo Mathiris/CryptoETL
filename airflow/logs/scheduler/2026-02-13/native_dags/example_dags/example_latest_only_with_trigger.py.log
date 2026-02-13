@@ -181,3 +181,10 @@
 [2026-02-13T13:20:58.690+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:58.690+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-02-13T13:20:58.721+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:58.721+0100] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2026-02-13 08:00:00+00:00, run_after=2026-02-13 12:00:00+00:00
 [2026-02-13T13:20:58.753+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.114 seconds
+[2026-02-13T13:21:59.557+0100] {processor.py:186} INFO - Started process (PID=37952) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2026-02-13T13:21:59.560+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2026-02-13T13:21:59.562+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:59.561+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2026-02-13T13:21:59.576+0100] {processor.py:925} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2026-02-13T13:21:59.601+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:59.600+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:21:59.634+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:59.634+0100] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2026-02-13 08:00:00+00:00, run_after=2026-02-13 12:00:00+00:00
+[2026-02-13T13:21:59.666+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.118 seconds

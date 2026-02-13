@@ -206,3 +206,11 @@
 [2026-02-13T13:20:51.436+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:51.436+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-02-13T13:20:51.456+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:51.456+0100] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
 [2026-02-13T13:20:51.487+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.110 seconds
+[2026-02-13T13:21:52.625+0100] {processor.py:186} INFO - Started process (PID=37941) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-13T13:21:52.627+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-02-13T13:21:52.630+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:52.629+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-13T13:21:52.642+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:52.641+0100] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-02-13T13:21:52.646+0100] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-02-13T13:21:52.673+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:52.673+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:21:52.695+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:52.694+0100] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-02-13T13:21:52.729+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.113 seconds

@@ -160,3 +160,17 @@
 [2026-02-13T13:20:08.247+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:08.247+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-02-13T13:20:08.279+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:08.279+0100] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
 [2026-02-13T13:20:08.313+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.146 seconds
+[2026-02-13T13:21:13.913+0100] {processor.py:186} INFO - Started process (PID=37879) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2026-02-13T13:21:13.916+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2026-02-13T13:21:13.918+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:13.918+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2026-02-13T13:21:13.944+0100] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2026-02-13T13:21:13.979+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:13.978+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:21:14.013+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:14.013+0100] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:21:14.047+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.143 seconds
+[2026-02-13T13:22:16.095+0100] {processor.py:186} INFO - Started process (PID=37994) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2026-02-13T13:22:16.098+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2026-02-13T13:22:16.099+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:16.099+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2026-02-13T13:22:16.122+0100] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2026-02-13T13:22:16.158+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:16.157+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:22:16.194+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:16.194+0100] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:22:16.228+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.143 seconds

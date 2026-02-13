@@ -308,3 +308,27 @@
 [2026-02-13T13:20:28.223+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:28.223+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
 [2026-02-13T13:20:28.224+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:28.223+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
 [2026-02-13T13:20:28.245+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.146 seconds
+[2026-02-13T13:21:31.723+0100] {processor.py:186} INFO - Started process (PID=37919) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-02-13T13:21:31.726+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2026-02-13T13:21:31.727+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:31.727+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-02-13T13:21:31.765+0100] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-02-13T13:21:31.789+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:31.789+0100] {dag.py:3239} INFO - Sync 3 DAGs
+[2026-02-13T13:21:31.824+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:31.823+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2026-02-13T13:21:31.829+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:31.829+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-02-13T13:21:31.831+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:31.830+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-02-13T13:21:31.841+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:31.840+0100] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-02-13T13:21:31.849+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:31.848+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-02-13T13:21:31.849+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:21:31.849+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-02-13T13:21:31.875+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.162 seconds
+[2026-02-13T13:22:34.867+0100] {processor.py:186} INFO - Started process (PID=38354) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-02-13T13:22:34.877+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2026-02-13T13:22:34.883+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:34.879+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-02-13T13:22:35.079+0100] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-02-13T13:22:35.266+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:35.259+0100] {dag.py:3239} INFO - Sync 3 DAGs
+[2026-02-13T13:22:35.531+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:35.530+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2026-02-13T13:22:35.584+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:35.581+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-02-13T13:22:35.602+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:35.598+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-02-13T13:22:35.687+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:35.686+0100] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-02-13T13:22:35.755+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:35.754+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-02-13T13:22:35.764+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:22:35.760+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-02-13T13:22:35.861+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 1.043 seconds
