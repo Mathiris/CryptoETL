@@ -9,4 +9,14 @@ database/
 *.db
 *.db.wal
 .venv
-standalal
+airflow.cfg
+airflow.db
+logs/
+plugins/
+
+.env
+.venv/
+env/
+
+__pycache__/
+*.pyc

@@ -125,3 +125,59 @@
 [2026-02-13T13:11:36.182+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:11:36.182+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-02-13T13:11:36.215+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:11:36.215+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
 [2026-02-13T13:11:36.247+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.121 seconds
+[2026-02-13T13:12:41.287+0100] {processor.py:186} INFO - Started process (PID=36894) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:12:41.289+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-02-13T13:12:41.292+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:12:41.291+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:12:41.310+0100] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:12:41.337+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:12:41.336+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:12:41.374+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:12:41.373+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:12:41.411+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.134 seconds
+[2026-02-13T13:13:43.881+0100] {processor.py:186} INFO - Started process (PID=37044) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:13:43.883+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-02-13T13:13:43.885+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:13:43.885+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:13:43.901+0100] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:13:43.928+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:13:43.928+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:13:43.965+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:13:43.965+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:13:44.000+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.127 seconds
+[2026-02-13T13:14:49.260+0100] {processor.py:186} INFO - Started process (PID=37214) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:14:49.263+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-02-13T13:14:49.265+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:14:49.264+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:14:49.282+0100] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:14:49.306+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:14:49.305+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:14:49.337+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:14:49.336+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:14:49.367+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.118 seconds
+[2026-02-13T13:15:56.906+0100] {processor.py:186} INFO - Started process (PID=37394) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:15:56.907+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-02-13T13:15:56.909+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:15:56.908+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:15:56.924+0100] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:15:56.948+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:15:56.947+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:15:56.985+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:15:56.985+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:15:57.020+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.123 seconds
+[2026-02-13T13:17:00.867+0100] {processor.py:186} INFO - Started process (PID=37482) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:17:00.870+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-02-13T13:17:00.872+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:17:00.871+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:17:00.886+0100] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:17:00.910+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:17:00.909+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:17:00.939+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:17:00.938+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:17:00.968+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.110 seconds
+[2026-02-13T13:18:08.207+0100] {processor.py:186} INFO - Started process (PID=37589) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:18:08.210+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-02-13T13:18:08.211+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:18:08.211+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:18:08.226+0100] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:18:08.251+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:18:08.251+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:18:08.284+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:18:08.284+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:18:08.317+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.119 seconds
+[2026-02-13T13:19:11.898+0100] {processor.py:186} INFO - Started process (PID=37701) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:19:11.900+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-02-13T13:19:11.902+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:19:11.901+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:19:11.919+0100] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:19:11.945+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:19:11.944+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:19:11.981+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:19:11.981+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:19:12.018+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.129 seconds
+[2026-02-13T13:20:20.680+0100] {processor.py:186} INFO - Started process (PID=37805) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:20:20.683+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-02-13T13:20:20.685+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:20.684+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:20:20.700+0100] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-02-13T13:20:20.724+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:20.724+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:20:20.756+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:20.756+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:20:20.787+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.116 seconds

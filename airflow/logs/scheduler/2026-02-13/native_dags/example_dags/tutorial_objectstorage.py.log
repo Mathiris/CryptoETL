@@ -438,3 +438,283 @@ Traceback (most recent call last):
 TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
 [2026-02-13T13:10:56.041+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
 [2026-02-13T13:10:56.070+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.051 seconds
+[2026-02-13T13:12:02.114+0100] {processor.py:186} INFO - Started process (PID=36823) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:12:02.117+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-02-13T13:12:02.119+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:12:02.119+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:12:02.127+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:12:02.124+0100] {dagbag.py:387} ERROR - Failed to import: /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-02-13T13:12:02.128+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:12:02.158+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.052 seconds
+[2026-02-13T13:12:34.945+0100] {processor.py:186} INFO - Started process (PID=36886) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:12:34.948+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-02-13T13:12:34.950+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:12:34.950+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:12:34.957+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:12:34.954+0100] {dagbag.py:387} ERROR - Failed to import: /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-02-13T13:12:34.958+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:12:34.989+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.054 seconds
+[2026-02-13T13:13:36.651+0100] {processor.py:186} INFO - Started process (PID=37022) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:13:36.653+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-02-13T13:13:36.655+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:13:36.654+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:13:36.661+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:13:36.659+0100] {dagbag.py:387} ERROR - Failed to import: /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-02-13T13:13:36.662+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:13:36.690+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.049 seconds
+[2026-02-13T13:14:09.595+0100] {processor.py:186} INFO - Started process (PID=37121) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:14:09.598+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-02-13T13:14:09.600+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:14:09.599+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:14:09.606+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:14:09.604+0100] {dagbag.py:387} ERROR - Failed to import: /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-02-13T13:14:09.607+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:14:09.637+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.050 seconds
+[2026-02-13T13:14:42.557+0100] {processor.py:186} INFO - Started process (PID=37206) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:14:42.558+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-02-13T13:14:42.560+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:14:42.559+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:14:42.567+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:14:42.564+0100] {dagbag.py:387} ERROR - Failed to import: /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-02-13T13:14:42.568+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:14:42.595+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.046 seconds
+[2026-02-13T13:15:15.053+0100] {processor.py:186} INFO - Started process (PID=37245) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:15:15.056+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-02-13T13:15:15.058+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:15:15.057+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:15:15.064+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:15:15.062+0100] {dagbag.py:387} ERROR - Failed to import: /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-02-13T13:15:15.065+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:15:15.094+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.050 seconds
+[2026-02-13T13:15:49.044+0100] {processor.py:186} INFO - Started process (PID=37347) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:15:49.045+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-02-13T13:15:49.047+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:15:49.047+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:15:49.054+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:15:49.051+0100] {dagbag.py:387} ERROR - Failed to import: /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-02-13T13:15:49.055+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:15:49.086+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.051 seconds
+[2026-02-13T13:16:21.786+0100] {processor.py:186} INFO - Started process (PID=37435) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:16:21.789+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-02-13T13:16:21.791+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:16:21.790+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:16:21.798+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:16:21.795+0100] {dagbag.py:387} ERROR - Failed to import: /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-02-13T13:16:21.799+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:16:21.828+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.051 seconds
+[2026-02-13T13:16:54.419+0100] {processor.py:186} INFO - Started process (PID=37475) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:16:54.421+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-02-13T13:16:54.423+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:16:54.422+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:16:54.429+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:16:54.427+0100] {dagbag.py:387} ERROR - Failed to import: /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-02-13T13:16:54.430+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:16:54.458+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.048 seconds
+[2026-02-13T13:17:59.859+0100] {processor.py:186} INFO - Started process (PID=37581) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:17:59.861+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-02-13T13:17:59.864+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:17:59.863+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:17:59.870+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:17:59.868+0100] {dagbag.py:387} ERROR - Failed to import: /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-02-13T13:17:59.872+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:17:59.902+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.052 seconds
+[2026-02-13T13:18:33.432+0100] {processor.py:186} INFO - Started process (PID=37652) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:18:33.434+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-02-13T13:18:33.436+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:18:33.436+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:18:33.445+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:18:33.442+0100] {dagbag.py:387} ERROR - Failed to import: /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-02-13T13:18:33.447+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:18:33.478+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.056 seconds
+[2026-02-13T13:19:37.465+0100] {processor.py:186} INFO - Started process (PID=37735) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:19:37.467+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-02-13T13:19:37.469+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:19:37.468+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:19:37.477+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:19:37.474+0100] {dagbag.py:387} ERROR - Failed to import: /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-02-13T13:19:37.478+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:19:37.510+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.054 seconds
+[2026-02-13T13:20:11.987+0100] {processor.py:186} INFO - Started process (PID=37785) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:20:11.990+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-02-13T13:20:11.992+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:11.991+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:20:11.998+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:11.996+0100] {dagbag.py:387} ERROR - Failed to import: /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-02-13T13:20:11.999+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:20:12.027+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.049 seconds
+[2026-02-13T13:20:45.911+0100] {processor.py:186} INFO - Started process (PID=37839) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:20:45.914+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-02-13T13:20:45.916+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:45.915+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:20:45.924+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:20:45.921+0100] {dagbag.py:387} ERROR - Failed to import: /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-02-13T13:20:45.925+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-02-13T13:20:45.955+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.055 seconds
