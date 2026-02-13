@@ -1,0 +1,106 @@
+[2026-02-13T12:55:08.931+0100] {processor.py:186} INFO - Started process (PID=34923) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T12:55:08.932+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-02-13T12:55:08.936+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:08.935+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T12:55:08.954+0100] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T12:55:09.048+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:09.048+0100] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_xcom
+[2026-02-13T12:55:09.059+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:09.059+0100] {override.py:1930} INFO - Created Permission View: can read on DAG:example_xcom
+[2026-02-13T12:55:09.067+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:09.067+0100] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_xcom
+[2026-02-13T12:55:09.081+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:09.081+0100] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_xcom
+[2026-02-13T12:55:09.093+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:09.093+0100] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_xcom
+[2026-02-13T12:55:09.104+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:09.103+0100] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_xcom
+[2026-02-13T12:55:09.115+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:09.115+0100] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_xcom
+[2026-02-13T12:55:09.115+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:09.115+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T12:55:09.131+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:09.131+0100] {dag.py:3262} INFO - Creating ORM DAG for example_xcom
+[2026-02-13T12:55:09.139+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:09.139+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-02-13T12:55:09.159+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.238 seconds
+[2026-02-13T12:56:17.016+0100] {processor.py:186} INFO - Started process (PID=35062) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T12:56:17.019+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-02-13T12:56:17.021+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:56:17.021+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T12:56:17.036+0100] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T12:56:17.054+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:56:17.054+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T12:56:17.072+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:56:17.072+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-02-13T12:56:17.094+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.085 seconds
+[2026-02-13T12:57:14.961+0100] {processor.py:186} INFO - Started process (PID=35149) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T12:57:14.964+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-02-13T12:57:14.967+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:57:14.966+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T12:57:14.984+0100] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T12:57:15.011+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:57:15.010+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T12:57:15.031+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:57:15.031+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-02-13T12:57:15.055+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.104 seconds
+[2026-02-13T12:58:12.549+0100] {processor.py:186} INFO - Started process (PID=35265) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T12:58:12.552+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-02-13T12:58:12.556+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:58:12.555+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T12:58:12.572+0100] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T12:58:12.597+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:58:12.597+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T12:58:12.620+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:58:12.620+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-02-13T12:58:12.640+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2026-02-13T12:59:07.256+0100] {processor.py:186} INFO - Started process (PID=35404) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T12:59:07.259+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-02-13T12:59:07.263+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:59:07.263+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T12:59:07.280+0100] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T12:59:07.305+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:59:07.304+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T12:59:07.326+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:59:07.326+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-02-13T12:59:07.344+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.096 seconds
+[2026-02-13T13:00:01.791+0100] {processor.py:186} INFO - Started process (PID=35510) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:00:01.794+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-02-13T13:00:01.796+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:00:01.795+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:00:01.814+0100] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:00:01.839+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:00:01.839+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:00:01.861+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:00:01.861+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-02-13T13:00:01.881+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.100 seconds
+[2026-02-13T13:00:58.814+0100] {processor.py:186} INFO - Started process (PID=35618) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:00:58.817+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-02-13T13:00:58.820+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:00:58.819+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:00:58.839+0100] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:00:58.862+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:00:58.862+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:00:58.881+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:00:58.881+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-02-13T13:00:58.900+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.095 seconds
+[2026-02-13T13:01:58.955+0100] {processor.py:186} INFO - Started process (PID=35737) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:01:58.957+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-02-13T13:01:58.960+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:01:58.959+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:01:58.976+0100] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:01:59.002+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:01:59.002+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:01:59.027+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:01:59.027+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-02-13T13:01:59.055+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.110 seconds
+[2026-02-13T13:02:58.392+0100] {processor.py:186} INFO - Started process (PID=35852) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:02:58.395+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-02-13T13:02:58.397+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:02:58.396+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:02:58.412+0100] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:02:58.427+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:02:58.427+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:02:58.443+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:02:58.442+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-02-13T13:02:58.460+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.077 seconds
+[2026-02-13T13:03:54.664+0100] {processor.py:186} INFO - Started process (PID=35996) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:03:54.667+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-02-13T13:03:54.669+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:03:54.668+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:03:54.686+0100] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:03:54.714+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:03:54.713+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:03:54.747+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:03:54.747+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-02-13T13:03:54.785+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.131 seconds
+[2026-02-13T13:04:56.597+0100] {processor.py:186} INFO - Started process (PID=36120) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:04:56.600+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-02-13T13:04:56.602+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:04:56.602+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:04:56.620+0100] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:04:56.645+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:04:56.644+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:04:56.675+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:04:56.675+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-02-13T13:04:56.707+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.118 seconds
+[2026-02-13T13:06:01.376+0100] {processor.py:186} INFO - Started process (PID=36243) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:06:01.378+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-02-13T13:06:01.380+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:06:01.379+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:06:01.396+0100] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:06:01.421+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:06:01.420+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:06:01.453+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:06:01.453+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-02-13T13:06:01.488+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.121 seconds
+[2026-02-13T13:07:06.611+0100] {processor.py:186} INFO - Started process (PID=36322) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:07:06.614+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-02-13T13:07:06.616+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:07:06.615+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:07:06.635+0100] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:07:06.666+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:07:06.665+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:07:06.705+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:07:06.704+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-02-13T13:07:06.741+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.140 seconds
+[2026-02-13T13:08:18.702+0100] {processor.py:186} INFO - Started process (PID=36438) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:08:18.705+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-02-13T13:08:18.707+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:18.706+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:08:18.724+0100] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-02-13T13:08:18.751+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:18.750+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:08:18.783+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:18.782+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-02-13T13:08:18.814+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.121 seconds

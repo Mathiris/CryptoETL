@@ -1,0 +1,106 @@
+[2026-02-13T12:55:18.360+0100] {processor.py:186} INFO - Started process (PID=34947) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T12:55:18.361+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-02-13T12:55:18.363+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:18.363+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T12:55:18.372+0100] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T12:55:18.458+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:18.458+0100] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2026-02-13T12:55:18.470+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:18.470+0100] {override.py:1930} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2026-02-13T12:55:18.478+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:18.478+0100] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2026-02-13T12:55:18.492+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:18.492+0100] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_skip_dag
+[2026-02-13T12:55:18.504+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:18.503+0100] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_skip_dag
+[2026-02-13T12:55:18.516+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:18.516+0100] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_skip_dag
+[2026-02-13T12:55:18.529+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:18.529+0100] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_skip_dag
+[2026-02-13T12:55:18.530+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:18.529+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T12:55:18.547+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:18.547+0100] {dag.py:3262} INFO - Creating ORM DAG for example_skip_dag
+[2026-02-13T12:55:18.558+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:18.557+0100] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T12:55:18.577+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.223 seconds
+[2026-02-13T12:56:24.125+0100] {processor.py:186} INFO - Started process (PID=35069) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T12:56:24.128+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-02-13T12:56:24.132+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:56:24.132+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T12:56:24.145+0100] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T12:56:24.171+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:56:24.170+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T12:56:24.191+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:56:24.191+0100] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T12:56:24.210+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.093 seconds
+[2026-02-13T12:57:22.772+0100] {processor.py:186} INFO - Started process (PID=35164) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T12:57:22.774+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-02-13T12:57:22.778+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:57:22.777+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T12:57:22.790+0100] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T12:57:22.809+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:57:22.809+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T12:57:22.831+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:57:22.831+0100] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T12:57:22.863+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.098 seconds
+[2026-02-13T12:58:20.265+0100] {processor.py:186} INFO - Started process (PID=35312) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T12:58:20.266+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-02-13T12:58:20.269+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:58:20.268+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T12:58:20.276+0100] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T12:58:20.294+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:58:20.294+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T12:58:20.315+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:58:20.314+0100] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T12:58:20.338+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.078 seconds
+[2026-02-13T12:59:14.023+0100] {processor.py:186} INFO - Started process (PID=35421) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T12:59:14.028+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-02-13T12:59:14.035+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:59:14.034+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T12:59:14.050+0100] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T12:59:14.065+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:59:14.065+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T12:59:14.088+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:59:14.088+0100] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T12:59:14.107+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.094 seconds
+[2026-02-13T13:00:09.479+0100] {processor.py:186} INFO - Started process (PID=35521) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:00:09.480+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-02-13T13:00:09.482+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:00:09.482+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:00:09.497+0100] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:00:09.521+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:00:09.521+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:00:09.547+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:00:09.547+0100] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:00:09.567+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.094 seconds
+[2026-02-13T13:01:06.530+0100] {processor.py:186} INFO - Started process (PID=35633) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:01:06.533+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-02-13T13:01:06.534+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:01:06.534+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:01:06.544+0100] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:01:06.557+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:01:06.557+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:01:06.573+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:01:06.573+0100] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:01:06.590+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.067 seconds
+[2026-02-13T13:02:06.573+0100] {processor.py:186} INFO - Started process (PID=35748) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:02:06.575+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-02-13T13:02:06.577+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:02:06.577+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:02:06.593+0100] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:02:06.627+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:02:06.627+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:02:06.653+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:02:06.652+0100] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:02:06.673+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.109 seconds
+[2026-02-13T13:03:04.027+0100] {processor.py:186} INFO - Started process (PID=35859) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:03:04.030+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-02-13T13:03:04.032+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:03:04.031+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:03:04.046+0100] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:03:04.068+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:03:04.068+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:03:04.085+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:03:04.084+0100] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:03:04.103+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.084 seconds
+[2026-02-13T13:04:01.405+0100] {processor.py:186} INFO - Started process (PID=36007) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:04:01.407+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-02-13T13:04:01.409+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:04:01.409+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:04:01.424+0100] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:04:01.451+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:04:01.450+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:04:01.484+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:04:01.484+0100] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:04:01.518+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.122 seconds
+[2026-02-13T13:05:04.917+0100] {processor.py:186} INFO - Started process (PID=36134) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:05:04.920+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-02-13T13:05:04.921+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:05:04.921+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:05:04.937+0100] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:05:04.967+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:05:04.967+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:05:05.006+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:05:05.005+0100] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:05:05.052+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.144 seconds
+[2026-02-13T13:06:09.117+0100] {processor.py:186} INFO - Started process (PID=36252) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:06:09.119+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-02-13T13:06:09.120+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:06:09.120+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:06:09.135+0100] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:06:09.161+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:06:09.161+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:06:09.191+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:06:09.190+0100] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:06:09.220+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.112 seconds
+[2026-02-13T13:07:15.610+0100] {processor.py:186} INFO - Started process (PID=36330) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:07:15.613+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-02-13T13:07:15.615+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:07:15.615+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:07:15.633+0100] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:07:15.661+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:07:15.660+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:07:15.693+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:07:15.693+0100] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:07:15.725+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.125 seconds
+[2026-02-13T13:08:26.753+0100] {processor.py:186} INFO - Started process (PID=36461) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:08:26.756+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-02-13T13:08:26.758+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:26.758+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:08:26.773+0100] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-02-13T13:08:26.804+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:26.804+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:08:26.839+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:26.838+0100] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-02-12 00:00:00+00:00, run_after=2026-02-13 00:00:00+00:00
+[2026-02-13T13:08:26.873+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.128 seconds

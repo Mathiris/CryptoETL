@@ -1,0 +1,92 @@
+[2026-02-13T12:55:57.871+0100] {processor.py:186} INFO - Started process (PID=34994) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T12:55:57.873+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-02-13T12:55:57.876+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:57.875+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T12:55:57.898+0100] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T12:55:57.996+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:57.995+0100] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_complex
+[2026-02-13T12:55:58.006+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:58.006+0100] {override.py:1930} INFO - Created Permission View: can read on DAG:example_complex
+[2026-02-13T12:55:58.015+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:58.015+0100] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_complex
+[2026-02-13T12:55:58.030+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:58.030+0100] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_complex
+[2026-02-13T12:55:58.041+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:58.040+0100] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_complex
+[2026-02-13T12:55:58.052+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:58.052+0100] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_complex
+[2026-02-13T12:55:58.063+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:58.063+0100] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_complex
+[2026-02-13T12:55:58.064+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:58.064+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T12:55:58.083+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:58.082+0100] {dag.py:3262} INFO - Creating ORM DAG for example_complex
+[2026-02-13T12:55:58.083+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:55:58.083+0100] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-02-13T12:55:58.109+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.247 seconds
+[2026-02-13T12:56:59.460+0100] {processor.py:186} INFO - Started process (PID=35120) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T12:56:59.463+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-02-13T12:56:59.466+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:56:59.466+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T12:56:59.487+0100] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T12:56:59.519+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:56:59.519+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T12:56:59.536+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:56:59.536+0100] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-02-13T12:56:59.566+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.116 seconds
+[2026-02-13T12:57:57.258+0100] {processor.py:186} INFO - Started process (PID=35234) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T12:57:57.261+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-02-13T12:57:57.265+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:57:57.264+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T12:57:57.285+0100] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T12:57:57.311+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:57:57.311+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T12:57:57.320+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:57:57.320+0100] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-02-13T12:57:57.339+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.090 seconds
+[2026-02-13T12:58:54.480+0100] {processor.py:186} INFO - Started process (PID=35378) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T12:58:54.481+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-02-13T12:58:54.485+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:58:54.484+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T12:58:54.504+0100] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T12:58:54.534+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:58:54.534+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T12:58:54.544+0100] {logging_mixin.py:190} INFO - [2026-02-13T12:58:54.544+0100] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-02-13T12:58:54.569+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.099 seconds
+[2026-02-13T13:00:16.283+0100] {processor.py:186} INFO - Started process (PID=35539) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:00:16.286+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-02-13T13:00:16.288+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:00:16.287+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:00:16.305+0100] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:00:16.326+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:00:16.326+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:00:16.338+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:00:16.337+0100] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-02-13T13:00:16.356+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.082 seconds
+[2026-02-13T13:01:14.530+0100] {processor.py:186} INFO - Started process (PID=35651) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:01:14.533+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-02-13T13:01:14.534+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:01:14.534+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:01:14.556+0100] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:01:14.587+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:01:14.586+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:01:14.597+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:01:14.597+0100] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-02-13T13:01:14.619+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.098 seconds
+[2026-02-13T13:02:15.368+0100] {processor.py:186} INFO - Started process (PID=35779) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:02:15.370+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-02-13T13:02:15.373+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:02:15.372+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:02:15.393+0100] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:02:15.415+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:02:15.415+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:02:15.427+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:02:15.426+0100] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-02-13T13:02:15.446+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.088 seconds
+[2026-02-13T13:03:12.789+0100] {processor.py:186} INFO - Started process (PID=35873) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:03:12.792+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-02-13T13:03:12.794+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:03:12.793+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:03:12.815+0100] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:03:12.850+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:03:12.850+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:03:12.861+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:03:12.861+0100] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-02-13T13:03:12.881+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.101 seconds
+[2026-02-13T13:04:41.371+0100] {processor.py:186} INFO - Started process (PID=36089) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:04:41.373+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-02-13T13:04:41.375+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:04:41.374+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:04:41.397+0100] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:04:41.437+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:04:41.437+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:04:41.457+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:04:41.457+0100] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-02-13T13:04:41.487+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.125 seconds
+[2026-02-13T13:05:45.829+0100] {processor.py:186} INFO - Started process (PID=36200) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:05:45.831+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-02-13T13:05:45.833+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:05:45.833+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:05:45.855+0100] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:05:45.899+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:05:45.899+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:05:45.920+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:05:45.920+0100] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-02-13T13:05:45.954+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.136 seconds
+[2026-02-13T13:06:51.949+0100] {processor.py:186} INFO - Started process (PID=36297) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:06:51.952+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-02-13T13:06:51.954+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:06:51.954+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:06:51.979+0100] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:06:52.022+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:06:52.022+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:06:52.045+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:06:52.045+0100] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-02-13T13:06:52.079+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.139 seconds
+[2026-02-13T13:08:00.881+0100] {processor.py:186} INFO - Started process (PID=36395) to work on /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:08:00.884+0100] {processor.py:914} INFO - Processing file /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-02-13T13:08:00.886+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:00.885+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:08:00.910+0100] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-02-13T13:08:00.957+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:00.957+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-13T13:08:00.979+0100] {logging_mixin.py:190} INFO - [2026-02-13T13:08:00.979+0100] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-02-13T13:08:01.012+0100] {processor.py:208} INFO - Processing /home/gianotti/Documents/CryptoETL/.venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.141 seconds
