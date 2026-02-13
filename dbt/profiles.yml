@@ -1,0 +1,7 @@
+duckdb:
+  outputs:
+    dev:
+      type: duckdb
+      path: ../database/crypto_vault.db
+      threads: 1
+  target: dev

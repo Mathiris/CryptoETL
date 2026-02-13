@@ -1,0 +1,509 @@
+[0m12:15:21.259161 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74d1b6622a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74d1b631dfa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74d1b868f5f0>]}
+
+
+============================== 12:15:21.299229 | 73e8d50e-5148-4a27-8125-7afc5544bbaf ==============================
+[0m12:15:21.299229 [info ] [MainThread]: Running with dbt=1.11.4
+[0m12:15:21.299881 [debug] [MainThread]: running dbt with arguments {'cache_selected_only': 'False', 'fail_fast': 'False', 'introspect': 'True', 'write_json': 'True', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'printer_width': '80', 'invocation_command': 'dbt debug --profiles-dir .', 'log_format': 'default', 'no_print': 'None', 'profiles_dir': '.', 'target_path': 'None', 'quiet': 'False', 'use_colors': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'partial_parse': 'True', 'warn_error': 'None', 'empty': 'None', 'version_check': 'True', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m12:15:21.352052 [info ] [MainThread]: dbt version: 1.11.4
+[0m12:15:21.352524 [info ] [MainThread]: python version: 3.12.3
+[0m12:15:21.352884 [info ] [MainThread]: python path: /home/gianotti/Documents/CryptoETL/.venv/bin/python
+[0m12:15:21.353231 [info ] [MainThread]: os info: Linux-6.14.0-33-generic-x86_64-with-glibc2.39
+[0m12:15:21.480847 [info ] [MainThread]: Using profiles dir at .
+[0m12:15:21.481344 [info ] [MainThread]: Using profiles.yml file at ./profiles.yml
+[0m12:15:21.481700 [info ] [MainThread]: Using dbt_project.yml file at /home/gianotti/Documents/CryptoETL/dbt/dbt_project.yml
+[0m12:15:21.483532 [info ] [MainThread]: adapter type: duckdb
+[0m12:15:21.484002 [info ] [MainThread]: adapter version: 1.10.0
+[0m12:15:21.484379 [info ] [MainThread]: Configuration:
+[0m12:15:21.484662 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:15:21.485019 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:15:21.485296 [info ] [MainThread]: Required dependencies:
+[0m12:15:21.485598 [debug] [MainThread]: Executing "git --help"
+[0m12:15:21.487977 [debug] [MainThread]: STDOUT: "b"usage : git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nCi-dessous les commandes Git habituelles dans diverses situations\xc2\xa0:\n\nd\xc3\xa9marrer une zone de travail (voir aussi\xc2\xa0: git help tutorial)\n   clone     Cloner un d\xc3\xa9p\xc3\xb4t dans un nouveau r\xc3\xa9pertoire\n   init      Cr\xc3\xa9er un d\xc3\xa9p\xc3\xb4t Git vide ou r\xc3\xa9initialiser un existant\n\ntravailler sur la modification actuelle (voir aussi\xc2\xa0: git help revisions)\n   add       Ajouter le contenu de fichiers dans l'index\n   mv        D\xc3\xa9placer ou renommer un fichier, un r\xc3\xa9pertoire, ou un lien symbolique\n   restore   Restaurer les fichiers l'arbre de travail\n   rm        Supprimer des fichiers de la copie de travail et de l'index\n\nexaminer l'historique et l'\xc3\xa9tat (voir aussi\xc2\xa0: git help revisions)\n   bisect    Trouver par recherche binaire la modification qui a introduit un bogue\n   diff      Afficher les changements entre les validations, entre validation et copie de travail, etc\n   grep      Afficher les lignes correspondant \xc3\xa0 un motif\n   log       Afficher l'historique des validations\n   show      Afficher diff\xc3\xa9rents types d'objets\n   status    Afficher l'\xc3\xa9tat de la copie de travail\n\nagrandir, marquer et modifier votre historique\n   branch    Lister, cr\xc3\xa9er ou supprimer des branches\n   commit    Enregistrer les modifications dans le d\xc3\xa9p\xc3\xb4t\n   merge     Fusionner deux ou plusieurs historiques de d\xc3\xa9veloppement ensemble\n   rebase    R\xc3\xa9application des commits sur le sommet de l'autre base\n   reset     R\xc3\xa9initialiser la HEAD courante \xc3\xa0 l'\xc3\xa9tat sp\xc3\xa9cifi\xc3\xa9\n   switch    Basculer de branche\n   tag       Cr\xc3\xa9er, lister, supprimer ou v\xc3\xa9rifier un objet d'\xc3\xa9tiquette sign\xc3\xa9 avec GPG\n\ncollaborer (voir aussi\xc2\xa0: git help workflows)\n   fetch     T\xc3\xa9l\xc3\xa9charger les objets et r\xc3\xa9f\xc3\xa9rences depuis un autre d\xc3\xa9p\xc3\xb4t\n   pull      Rapatrier et int\xc3\xa9grer un autre d\xc3\xa9p\xc3\xb4t ou une branche locale\n   push      Mettre \xc3\xa0 jour les r\xc3\xa9f\xc3\xa9rences distantes ainsi que les objets associ\xc3\xa9s\n\n'git help -a' et 'git help -g' listent les sous-commandes disponibles et\nquelques concepts. Voir 'git help <commande>' ou 'git help <concept>'\npour en lire plus \xc3\xa0 propos d'une commande sp\xc3\xa9cifique ou d'un concept.\nVoir 'git help git' pour un survol du syst\xc3\xa8me.\n""
+[0m12:15:21.488523 [debug] [MainThread]: STDERR: "b''"
+[0m12:15:21.488947 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:15:21.489280 [info ] [MainThread]: Connection:
+[0m12:15:21.489576 [info ] [MainThread]:   database: crypto_vault
+[0m12:15:21.489872 [info ] [MainThread]:   schema: main
+[0m12:15:21.490143 [info ] [MainThread]:   path: db/crypto_vault.db
+[0m12:15:21.490405 [info ] [MainThread]:   config_options: None
+[0m12:15:21.490654 [info ] [MainThread]:   extensions: None
+[0m12:15:21.490916 [info ] [MainThread]:   settings: {}
+[0m12:15:21.491175 [info ] [MainThread]:   external_root: .
+[0m12:15:21.491432 [info ] [MainThread]:   use_credential_provider: None
+[0m12:15:21.491714 [info ] [MainThread]:   attach: None
+[0m12:15:21.492020 [info ] [MainThread]:   filesystems: None
+[0m12:15:21.492288 [info ] [MainThread]:   remote: None
+[0m12:15:21.492564 [info ] [MainThread]:   plugins: None
+[0m12:15:21.492855 [info ] [MainThread]:   disable_transactions: False
+[0m12:15:21.493313 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m12:15:21.553680 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m12:15:21.577041 [debug] [MainThread]: Using duckdb connection "debug"
+[0m12:15:21.577585 [debug] [MainThread]: On debug: select 1 as id
+[0m12:15:21.577928 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:15:21.585350 [debug] [MainThread]: DuckDB adapter: Error running SQL: select 1 as id
+[0m12:15:21.585803 [debug] [MainThread]: DuckDB adapter: Rolling back transaction.
+[0m12:15:21.586313 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m12:15:21.586724 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m12:15:21.587072 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/gianotti/Documents/CryptoETL/dbt/dbt_project.yml> not found
+
+[0m12:15:21.587370 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Runtime Error
+  IO Error: Cannot open file "/home/gianotti/Documents/CryptoETL/dbt/db/crypto_vault.db": No such file or directory
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m12:15:21.588179 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.403929, "process_in_blocks": "34944", "process_kernel_time": 0.197765, "process_mem_max_rss": "137220", "process_out_blocks": "1440", "process_user_time": 1.727947}
+[0m12:15:21.588673 [debug] [MainThread]: Command `dbt debug` failed at 12:15:21.588575 after 0.40 seconds
+[0m12:15:21.589041 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:15:21.589371 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74d1b6622a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74d1b5af8d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74d1b59e5eb0>]}
+[0m12:15:21.589785 [debug] [MainThread]: Flushing usage events
+[0m12:15:22.912590 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:15:56.746453 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7003b7e468d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7003bb139070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7003b85332c0>]}
+
+
+============================== 12:15:56.749775 | ec725e35-fde0-48d7-87da-49b2dc823cd4 ==============================
+[0m12:15:56.749775 [info ] [MainThread]: Running with dbt=1.11.4
+[0m12:15:56.750370 [debug] [MainThread]: running dbt with arguments {'use_experimental_parser': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'partial_parse': 'True', 'introspect': 'True', 'target_path': 'None', 'fail_fast': 'False', 'profiles_dir': '.', 'printer_width': '80', 'log_path': 'logs', 'static_parser': 'True', 'log_cache_events': 'False', 'invocation_command': 'dbt debug --profiles-dir .', 'indirect_selection': 'eager', 'log_format': 'default', 'debug': 'False', 'use_colors': 'True', 'warn_error': 'None', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'write_json': 'True', 'empty': 'None', 'version_check': 'True', 'no_print': 'None'}
+[0m12:15:56.759974 [info ] [MainThread]: dbt version: 1.11.4
+[0m12:15:56.760442 [info ] [MainThread]: python version: 3.12.3
+[0m12:15:56.760791 [info ] [MainThread]: python path: /home/gianotti/Documents/CryptoETL/.venv/bin/python
+[0m12:15:56.761101 [info ] [MainThread]: os info: Linux-6.14.0-33-generic-x86_64-with-glibc2.39
+[0m12:15:56.885622 [info ] [MainThread]: Using profiles dir at .
+[0m12:15:56.886134 [info ] [MainThread]: Using profiles.yml file at ./profiles.yml
+[0m12:15:56.886653 [info ] [MainThread]: Using dbt_project.yml file at /home/gianotti/Documents/CryptoETL/dbt/dbt_project.yml
+[0m12:15:56.888413 [info ] [MainThread]: adapter type: duckdb
+[0m12:15:56.888770 [info ] [MainThread]: adapter version: 1.10.0
+[0m12:15:56.889128 [info ] [MainThread]: Configuration:
+[0m12:15:56.889423 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:15:56.889685 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:15:56.889971 [info ] [MainThread]: Required dependencies:
+[0m12:15:56.890257 [debug] [MainThread]: Executing "git --help"
+[0m12:15:56.892361 [debug] [MainThread]: STDOUT: "b"usage : git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nCi-dessous les commandes Git habituelles dans diverses situations\xc2\xa0:\n\nd\xc3\xa9marrer une zone de travail (voir aussi\xc2\xa0: git help tutorial)\n   clone     Cloner un d\xc3\xa9p\xc3\xb4t dans un nouveau r\xc3\xa9pertoire\n   init      Cr\xc3\xa9er un d\xc3\xa9p\xc3\xb4t Git vide ou r\xc3\xa9initialiser un existant\n\ntravailler sur la modification actuelle (voir aussi\xc2\xa0: git help revisions)\n   add       Ajouter le contenu de fichiers dans l'index\n   mv        D\xc3\xa9placer ou renommer un fichier, un r\xc3\xa9pertoire, ou un lien symbolique\n   restore   Restaurer les fichiers l'arbre de travail\n   rm        Supprimer des fichiers de la copie de travail et de l'index\n\nexaminer l'historique et l'\xc3\xa9tat (voir aussi\xc2\xa0: git help revisions)\n   bisect    Trouver par recherche binaire la modification qui a introduit un bogue\n   diff      Afficher les changements entre les validations, entre validation et copie de travail, etc\n   grep      Afficher les lignes correspondant \xc3\xa0 un motif\n   log       Afficher l'historique des validations\n   show      Afficher diff\xc3\xa9rents types d'objets\n   status    Afficher l'\xc3\xa9tat de la copie de travail\n\nagrandir, marquer et modifier votre historique\n   branch    Lister, cr\xc3\xa9er ou supprimer des branches\n   commit    Enregistrer les modifications dans le d\xc3\xa9p\xc3\xb4t\n   merge     Fusionner deux ou plusieurs historiques de d\xc3\xa9veloppement ensemble\n   rebase    R\xc3\xa9application des commits sur le sommet de l'autre base\n   reset     R\xc3\xa9initialiser la HEAD courante \xc3\xa0 l'\xc3\xa9tat sp\xc3\xa9cifi\xc3\xa9\n   switch    Basculer de branche\n   tag       Cr\xc3\xa9er, lister, supprimer ou v\xc3\xa9rifier un objet d'\xc3\xa9tiquette sign\xc3\xa9 avec GPG\n\ncollaborer (voir aussi\xc2\xa0: git help workflows)\n   fetch     T\xc3\xa9l\xc3\xa9charger les objets et r\xc3\xa9f\xc3\xa9rences depuis un autre d\xc3\xa9p\xc3\xb4t\n   pull      Rapatrier et int\xc3\xa9grer un autre d\xc3\xa9p\xc3\xb4t ou une branche locale\n   push      Mettre \xc3\xa0 jour les r\xc3\xa9f\xc3\xa9rences distantes ainsi que les objets associ\xc3\xa9s\n\n'git help -a' et 'git help -g' listent les sous-commandes disponibles et\nquelques concepts. Voir 'git help <commande>' ou 'git help <concept>'\npour en lire plus \xc3\xa0 propos d'une commande sp\xc3\xa9cifique ou d'un concept.\nVoir 'git help git' pour un survol du syst\xc3\xa8me.\n""
+[0m12:15:56.892864 [debug] [MainThread]: STDERR: "b''"
+[0m12:15:56.893180 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:15:56.893503 [info ] [MainThread]: Connection:
+[0m12:15:56.893822 [info ] [MainThread]:   database: crypto_vault
+[0m12:15:56.894104 [info ] [MainThread]:   schema: main
+[0m12:15:56.894370 [info ] [MainThread]:   path: db/crypto_vault.db
+[0m12:15:56.894633 [info ] [MainThread]:   config_options: None
+[0m12:15:56.894947 [info ] [MainThread]:   extensions: None
+[0m12:15:56.895209 [info ] [MainThread]:   settings: {}
+[0m12:15:56.895459 [info ] [MainThread]:   external_root: .
+[0m12:15:56.895702 [info ] [MainThread]:   use_credential_provider: None
+[0m12:15:56.896321 [info ] [MainThread]:   attach: None
+[0m12:15:56.896742 [info ] [MainThread]:   filesystems: None
+[0m12:15:56.897095 [info ] [MainThread]:   remote: None
+[0m12:15:56.897429 [info ] [MainThread]:   plugins: None
+[0m12:15:56.897802 [info ] [MainThread]:   disable_transactions: False
+[0m12:15:56.898286 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m12:15:56.959923 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m12:15:56.980071 [debug] [MainThread]: Using duckdb connection "debug"
+[0m12:15:56.980477 [debug] [MainThread]: On debug: select 1 as id
+[0m12:15:56.980837 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:15:56.986433 [debug] [MainThread]: DuckDB adapter: Error running SQL: select 1 as id
+[0m12:15:56.986869 [debug] [MainThread]: DuckDB adapter: Rolling back transaction.
+[0m12:15:56.987356 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m12:15:56.987740 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m12:15:56.988116 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/gianotti/Documents/CryptoETL/dbt/dbt_project.yml> not found
+
+[0m12:15:56.988398 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Runtime Error
+  IO Error: Cannot open file "/home/gianotti/Documents/CryptoETL/dbt/db/crypto_vault.db": No such file or directory
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m12:15:56.989240 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.3177265, "process_in_blocks": "0", "process_kernel_time": 0.153671, "process_mem_max_rss": "137504", "process_out_blocks": "16", "process_user_time": 1.658454}
+[0m12:15:56.989787 [debug] [MainThread]: Command `dbt debug` failed at 12:15:56.989678 after 0.32 seconds
+[0m12:15:56.990133 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:15:56.990474 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7003b9e7a240>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7003b7f738c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7003af54d130>]}
+[0m12:15:56.990918 [debug] [MainThread]: Flushing usage events
+[0m12:15:58.550288 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:16:18.241525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7af9c7878680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7af9c93336e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7af9c64c2e70>]}
+
+
+============================== 12:16:18.245030 | 652fb277-a00a-418c-8e20-aa69a83b0dad ==============================
+[0m12:16:18.245030 [info ] [MainThread]: Running with dbt=1.11.4
+[0m12:16:18.245637 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'debug': 'False', 'target_path': 'None', 'log_path': '/home/gianotti/Documents/CryptoETL/dbt/logs', 'write_json': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'introspect': 'True', 'quiet': 'False', 'printer_width': '80', 'empty': 'None', 'log_cache_events': 'False', 'profiles_dir': '.', 'fail_fast': 'False', 'log_format': 'default', 'version_check': 'True', 'cache_selected_only': 'False', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'use_experimental_parser': 'False', 'partial_parse': 'True', 'invocation_command': 'dbt debug --profiles-dir .', 'no_print': 'None'}
+[0m12:16:18.254190 [info ] [MainThread]: dbt version: 1.11.4
+[0m12:16:18.254632 [info ] [MainThread]: python version: 3.12.3
+[0m12:16:18.255000 [info ] [MainThread]: python path: /home/gianotti/Documents/CryptoETL/.venv/bin/python
+[0m12:16:18.255297 [info ] [MainThread]: os info: Linux-6.14.0-33-generic-x86_64-with-glibc2.39
+[0m12:16:18.385541 [info ] [MainThread]: Using profiles dir at .
+[0m12:16:18.386069 [info ] [MainThread]: Using profiles.yml file at ./profiles.yml
+[0m12:16:18.386411 [info ] [MainThread]: Using dbt_project.yml file at /home/gianotti/Documents/CryptoETL/dbt/dbt_project.yml
+[0m12:16:18.387882 [info ] [MainThread]: adapter type: duckdb
+[0m12:16:18.388266 [info ] [MainThread]: adapter version: 1.10.0
+[0m12:16:18.527244 [info ] [MainThread]: Configuration:
+[0m12:16:18.527846 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:16:18.528234 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m12:16:18.528578 [info ] [MainThread]: Required dependencies:
+[0m12:16:18.528939 [debug] [MainThread]: Executing "git --help"
+[0m12:16:18.530988 [debug] [MainThread]: STDOUT: "b"usage : git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nCi-dessous les commandes Git habituelles dans diverses situations\xc2\xa0:\n\nd\xc3\xa9marrer une zone de travail (voir aussi\xc2\xa0: git help tutorial)\n   clone     Cloner un d\xc3\xa9p\xc3\xb4t dans un nouveau r\xc3\xa9pertoire\n   init      Cr\xc3\xa9er un d\xc3\xa9p\xc3\xb4t Git vide ou r\xc3\xa9initialiser un existant\n\ntravailler sur la modification actuelle (voir aussi\xc2\xa0: git help revisions)\n   add       Ajouter le contenu de fichiers dans l'index\n   mv        D\xc3\xa9placer ou renommer un fichier, un r\xc3\xa9pertoire, ou un lien symbolique\n   restore   Restaurer les fichiers l'arbre de travail\n   rm        Supprimer des fichiers de la copie de travail et de l'index\n\nexaminer l'historique et l'\xc3\xa9tat (voir aussi\xc2\xa0: git help revisions)\n   bisect    Trouver par recherche binaire la modification qui a introduit un bogue\n   diff      Afficher les changements entre les validations, entre validation et copie de travail, etc\n   grep      Afficher les lignes correspondant \xc3\xa0 un motif\n   log       Afficher l'historique des validations\n   show      Afficher diff\xc3\xa9rents types d'objets\n   status    Afficher l'\xc3\xa9tat de la copie de travail\n\nagrandir, marquer et modifier votre historique\n   branch    Lister, cr\xc3\xa9er ou supprimer des branches\n   commit    Enregistrer les modifications dans le d\xc3\xa9p\xc3\xb4t\n   merge     Fusionner deux ou plusieurs historiques de d\xc3\xa9veloppement ensemble\n   rebase    R\xc3\xa9application des commits sur le sommet de l'autre base\n   reset     R\xc3\xa9initialiser la HEAD courante \xc3\xa0 l'\xc3\xa9tat sp\xc3\xa9cifi\xc3\xa9\n   switch    Basculer de branche\n   tag       Cr\xc3\xa9er, lister, supprimer ou v\xc3\xa9rifier un objet d'\xc3\xa9tiquette sign\xc3\xa9 avec GPG\n\ncollaborer (voir aussi\xc2\xa0: git help workflows)\n   fetch     T\xc3\xa9l\xc3\xa9charger les objets et r\xc3\xa9f\xc3\xa9rences depuis un autre d\xc3\xa9p\xc3\xb4t\n   pull      Rapatrier et int\xc3\xa9grer un autre d\xc3\xa9p\xc3\xb4t ou une branche locale\n   push      Mettre \xc3\xa0 jour les r\xc3\xa9f\xc3\xa9rences distantes ainsi que les objets associ\xc3\xa9s\n\n'git help -a' et 'git help -g' listent les sous-commandes disponibles et\nquelques concepts. Voir 'git help <commande>' ou 'git help <concept>'\npour en lire plus \xc3\xa0 propos d'une commande sp\xc3\xa9cifique ou d'un concept.\nVoir 'git help git' pour un survol du syst\xc3\xa8me.\n""
+[0m12:16:18.531417 [debug] [MainThread]: STDERR: "b''"
+[0m12:16:18.531699 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:16:18.532035 [info ] [MainThread]: Connection:
+[0m12:16:18.532358 [info ] [MainThread]:   database: crypto_vault
+[0m12:16:18.532659 [info ] [MainThread]:   schema: main
+[0m12:16:18.532965 [info ] [MainThread]:   path: db/crypto_vault.db
+[0m12:16:18.533244 [info ] [MainThread]:   config_options: None
+[0m12:16:18.533528 [info ] [MainThread]:   extensions: None
+[0m12:16:18.533818 [info ] [MainThread]:   settings: {}
+[0m12:16:18.534087 [info ] [MainThread]:   external_root: .
+[0m12:16:18.534344 [info ] [MainThread]:   use_credential_provider: None
+[0m12:16:18.534682 [info ] [MainThread]:   attach: None
+[0m12:16:18.534959 [info ] [MainThread]:   filesystems: None
+[0m12:16:18.535223 [info ] [MainThread]:   remote: None
+[0m12:16:18.535496 [info ] [MainThread]:   plugins: None
+[0m12:16:18.535752 [info ] [MainThread]:   disable_transactions: False
+[0m12:16:18.536210 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m12:16:18.598404 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m12:16:18.620614 [debug] [MainThread]: Using duckdb connection "debug"
+[0m12:16:18.621154 [debug] [MainThread]: On debug: select 1 as id
+[0m12:16:18.621629 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:16:18.627471 [debug] [MainThread]: DuckDB adapter: Error running SQL: select 1 as id
+[0m12:16:18.627896 [debug] [MainThread]: DuckDB adapter: Rolling back transaction.
+[0m12:16:18.628347 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m12:16:18.628681 [info ] [MainThread]: [31m1 check failed:[0m
+[0m12:16:18.628993 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Runtime Error
+  IO Error: Cannot open file "/home/gianotti/Documents/CryptoETL/dbt/db/crypto_vault.db": No such file or directory
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m12:16:18.629873 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.46414718, "process_in_blocks": "0", "process_kernel_time": 0.1796, "process_mem_max_rss": "139288", "process_out_blocks": "16", "process_user_time": 1.818956}
+[0m12:16:18.630407 [debug] [MainThread]: Command `dbt debug` failed at 12:16:18.630278 after 0.46 seconds
+[0m12:16:18.630760 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:16:18.631127 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7af9c5c4dd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7af9bde343e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7af9bdf964e0>]}
+[0m12:16:18.631513 [debug] [MainThread]: Flushing usage events
+[0m12:16:20.256474 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:16:52.587759 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79831725b0e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79831947c560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x798316f4d5e0>]}
+
+
+============================== 12:16:52.591102 | 7ff18fcb-a5fa-4390-b11d-ac961f65a236 ==============================
+[0m12:16:52.591102 [info ] [MainThread]: Running with dbt=1.11.4
+[0m12:16:52.591804 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'printer_width': '80', 'invocation_command': 'dbt debug --profiles-dir .', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'log_format': 'default', 'introspect': 'True', 'partial_parse': 'True', 'target_path': 'None', 'log_path': '/home/gianotti/Documents/CryptoETL/dbt/logs', 'write_json': 'True', 'use_experimental_parser': 'False', 'warn_error': 'None', 'quiet': 'False', 'no_print': 'None', 'empty': 'None', 'cache_selected_only': 'False', 'profiles_dir': '.', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'static_parser': 'True', 'debug': 'False'}
+[0m12:16:52.601064 [info ] [MainThread]: dbt version: 1.11.4
+[0m12:16:52.601537 [info ] [MainThread]: python version: 3.12.3
+[0m12:16:52.601892 [info ] [MainThread]: python path: /home/gianotti/Documents/CryptoETL/.venv/bin/python
+[0m12:16:52.602197 [info ] [MainThread]: os info: Linux-6.14.0-33-generic-x86_64-with-glibc2.39
+[0m12:16:52.728668 [info ] [MainThread]: Using profiles dir at .
+[0m12:16:52.729210 [info ] [MainThread]: Using profiles.yml file at ./profiles.yml
+[0m12:16:52.729602 [info ] [MainThread]: Using dbt_project.yml file at /home/gianotti/Documents/CryptoETL/dbt/dbt_project.yml
+[0m12:16:52.731457 [info ] [MainThread]: adapter type: duckdb
+[0m12:16:52.731891 [info ] [MainThread]: adapter version: 1.10.0
+[0m12:16:52.873117 [info ] [MainThread]: Configuration:
+[0m12:16:52.873624 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:16:52.873971 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m12:16:52.874285 [info ] [MainThread]: Required dependencies:
+[0m12:16:52.874612 [debug] [MainThread]: Executing "git --help"
+[0m12:16:52.876733 [debug] [MainThread]: STDOUT: "b"usage : git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nCi-dessous les commandes Git habituelles dans diverses situations\xc2\xa0:\n\nd\xc3\xa9marrer une zone de travail (voir aussi\xc2\xa0: git help tutorial)\n   clone     Cloner un d\xc3\xa9p\xc3\xb4t dans un nouveau r\xc3\xa9pertoire\n   init      Cr\xc3\xa9er un d\xc3\xa9p\xc3\xb4t Git vide ou r\xc3\xa9initialiser un existant\n\ntravailler sur la modification actuelle (voir aussi\xc2\xa0: git help revisions)\n   add       Ajouter le contenu de fichiers dans l'index\n   mv        D\xc3\xa9placer ou renommer un fichier, un r\xc3\xa9pertoire, ou un lien symbolique\n   restore   Restaurer les fichiers l'arbre de travail\n   rm        Supprimer des fichiers de la copie de travail et de l'index\n\nexaminer l'historique et l'\xc3\xa9tat (voir aussi\xc2\xa0: git help revisions)\n   bisect    Trouver par recherche binaire la modification qui a introduit un bogue\n   diff      Afficher les changements entre les validations, entre validation et copie de travail, etc\n   grep      Afficher les lignes correspondant \xc3\xa0 un motif\n   log       Afficher l'historique des validations\n   show      Afficher diff\xc3\xa9rents types d'objets\n   status    Afficher l'\xc3\xa9tat de la copie de travail\n\nagrandir, marquer et modifier votre historique\n   branch    Lister, cr\xc3\xa9er ou supprimer des branches\n   commit    Enregistrer les modifications dans le d\xc3\xa9p\xc3\xb4t\n   merge     Fusionner deux ou plusieurs historiques de d\xc3\xa9veloppement ensemble\n   rebase    R\xc3\xa9application des commits sur le sommet de l'autre base\n   reset     R\xc3\xa9initialiser la HEAD courante \xc3\xa0 l'\xc3\xa9tat sp\xc3\xa9cifi\xc3\xa9\n   switch    Basculer de branche\n   tag       Cr\xc3\xa9er, lister, supprimer ou v\xc3\xa9rifier un objet d'\xc3\xa9tiquette sign\xc3\xa9 avec GPG\n\ncollaborer (voir aussi\xc2\xa0: git help workflows)\n   fetch     T\xc3\xa9l\xc3\xa9charger les objets et r\xc3\xa9f\xc3\xa9rences depuis un autre d\xc3\xa9p\xc3\xb4t\n   pull      Rapatrier et int\xc3\xa9grer un autre d\xc3\xa9p\xc3\xb4t ou une branche locale\n   push      Mettre \xc3\xa0 jour les r\xc3\xa9f\xc3\xa9rences distantes ainsi que les objets associ\xc3\xa9s\n\n'git help -a' et 'git help -g' listent les sous-commandes disponibles et\nquelques concepts. Voir 'git help <commande>' ou 'git help <concept>'\npour en lire plus \xc3\xa0 propos d'une commande sp\xc3\xa9cifique ou d'un concept.\nVoir 'git help git' pour un survol du syst\xc3\xa8me.\n""
+[0m12:16:52.877400 [debug] [MainThread]: STDERR: "b''"
+[0m12:16:52.877735 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:16:52.878130 [info ] [MainThread]: Connection:
+[0m12:16:52.878464 [info ] [MainThread]:   database: crypto_vault
+[0m12:16:52.878974 [info ] [MainThread]:   schema: main
+[0m12:16:52.879330 [info ] [MainThread]:   path: database/crypto_vault.db
+[0m12:16:52.879619 [info ] [MainThread]:   config_options: None
+[0m12:16:52.879913 [info ] [MainThread]:   extensions: None
+[0m12:16:52.880182 [info ] [MainThread]:   settings: {}
+[0m12:16:52.880570 [info ] [MainThread]:   external_root: .
+[0m12:16:52.880904 [info ] [MainThread]:   use_credential_provider: None
+[0m12:16:52.881177 [info ] [MainThread]:   attach: None
+[0m12:16:52.881461 [info ] [MainThread]:   filesystems: None
+[0m12:16:52.881731 [info ] [MainThread]:   remote: None
+[0m12:16:52.882003 [info ] [MainThread]:   plugins: None
+[0m12:16:52.882257 [info ] [MainThread]:   disable_transactions: False
+[0m12:16:52.882674 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m12:16:52.947414 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m12:16:52.969323 [debug] [MainThread]: Using duckdb connection "debug"
+[0m12:16:52.969768 [debug] [MainThread]: On debug: select 1 as id
+[0m12:16:52.970123 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:16:52.975889 [debug] [MainThread]: DuckDB adapter: Error running SQL: select 1 as id
+[0m12:16:52.976314 [debug] [MainThread]: DuckDB adapter: Rolling back transaction.
+[0m12:16:52.976746 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m12:16:52.977100 [info ] [MainThread]: [31m1 check failed:[0m
+[0m12:16:52.977406 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Runtime Error
+  IO Error: Cannot open file "/home/gianotti/Documents/CryptoETL/dbt/database/crypto_vault.db": No such file or directory
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m12:16:52.978281 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.46494314, "process_in_blocks": "0", "process_kernel_time": 0.165365, "process_mem_max_rss": "139216", "process_out_blocks": "24", "process_user_time": 1.838943}
+[0m12:16:52.978764 [debug] [MainThread]: Command `dbt debug` failed at 12:16:52.978663 after 0.47 seconds
+[0m12:16:52.979140 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:16:52.979477 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79831689c680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79831687bb00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7983172a6120>]}
+[0m12:16:52.979879 [debug] [MainThread]: Flushing usage events
+[0m12:16:54.355130 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:17:07.767734 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a897d1a4680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a897cd98e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a897f07b470>]}
+
+
+============================== 12:17:07.771098 | 79de1a12-316e-443d-a57c-14019a026f7a ==============================
+[0m12:17:07.771098 [info ] [MainThread]: Running with dbt=1.11.4
+[0m12:17:07.771754 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'invocation_command': 'dbt debug --profiles-dir .', 'quiet': 'False', 'indirect_selection': 'eager', 'use_colors': 'True', 'version_check': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_cache_events': 'False', 'static_parser': 'True', 'partial_parse': 'True', 'log_path': '/home/gianotti/Documents/CryptoETL/dbt/logs', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'cache_selected_only': 'False', 'debug': 'False', 'printer_width': '80', 'log_format': 'default', 'no_print': 'None', 'profiles_dir': '.', 'empty': 'None', 'warn_error': 'None', 'use_experimental_parser': 'False', 'target_path': 'None'}
+[0m12:17:07.780560 [info ] [MainThread]: dbt version: 1.11.4
+[0m12:17:07.781033 [info ] [MainThread]: python version: 3.12.3
+[0m12:17:07.781371 [info ] [MainThread]: python path: /home/gianotti/Documents/CryptoETL/.venv/bin/python
+[0m12:17:07.781673 [info ] [MainThread]: os info: Linux-6.14.0-33-generic-x86_64-with-glibc2.39
+[0m12:17:07.906695 [info ] [MainThread]: Using profiles dir at .
+[0m12:17:07.907190 [info ] [MainThread]: Using profiles.yml file at ./profiles.yml
+[0m12:17:07.907523 [info ] [MainThread]: Using dbt_project.yml file at /home/gianotti/Documents/CryptoETL/dbt/dbt_project.yml
+[0m12:17:07.908867 [info ] [MainThread]: adapter type: duckdb
+[0m12:17:07.909306 [info ] [MainThread]: adapter version: 1.10.0
+[0m12:17:08.042268 [info ] [MainThread]: Configuration:
+[0m12:17:08.042833 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:17:08.043455 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m12:17:08.044059 [info ] [MainThread]: Required dependencies:
+[0m12:17:08.044666 [debug] [MainThread]: Executing "git --help"
+[0m12:17:08.047042 [debug] [MainThread]: STDOUT: "b"usage : git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nCi-dessous les commandes Git habituelles dans diverses situations\xc2\xa0:\n\nd\xc3\xa9marrer une zone de travail (voir aussi\xc2\xa0: git help tutorial)\n   clone     Cloner un d\xc3\xa9p\xc3\xb4t dans un nouveau r\xc3\xa9pertoire\n   init      Cr\xc3\xa9er un d\xc3\xa9p\xc3\xb4t Git vide ou r\xc3\xa9initialiser un existant\n\ntravailler sur la modification actuelle (voir aussi\xc2\xa0: git help revisions)\n   add       Ajouter le contenu de fichiers dans l'index\n   mv        D\xc3\xa9placer ou renommer un fichier, un r\xc3\xa9pertoire, ou un lien symbolique\n   restore   Restaurer les fichiers l'arbre de travail\n   rm        Supprimer des fichiers de la copie de travail et de l'index\n\nexaminer l'historique et l'\xc3\xa9tat (voir aussi\xc2\xa0: git help revisions)\n   bisect    Trouver par recherche binaire la modification qui a introduit un bogue\n   diff      Afficher les changements entre les validations, entre validation et copie de travail, etc\n   grep      Afficher les lignes correspondant \xc3\xa0 un motif\n   log       Afficher l'historique des validations\n   show      Afficher diff\xc3\xa9rents types d'objets\n   status    Afficher l'\xc3\xa9tat de la copie de travail\n\nagrandir, marquer et modifier votre historique\n   branch    Lister, cr\xc3\xa9er ou supprimer des branches\n   commit    Enregistrer les modifications dans le d\xc3\xa9p\xc3\xb4t\n   merge     Fusionner deux ou plusieurs historiques de d\xc3\xa9veloppement ensemble\n   rebase    R\xc3\xa9application des commits sur le sommet de l'autre base\n   reset     R\xc3\xa9initialiser la HEAD courante \xc3\xa0 l'\xc3\xa9tat sp\xc3\xa9cifi\xc3\xa9\n   switch    Basculer de branche\n   tag       Cr\xc3\xa9er, lister, supprimer ou v\xc3\xa9rifier un objet d'\xc3\xa9tiquette sign\xc3\xa9 avec GPG\n\ncollaborer (voir aussi\xc2\xa0: git help workflows)\n   fetch     T\xc3\xa9l\xc3\xa9charger les objets et r\xc3\xa9f\xc3\xa9rences depuis un autre d\xc3\xa9p\xc3\xb4t\n   pull      Rapatrier et int\xc3\xa9grer un autre d\xc3\xa9p\xc3\xb4t ou une branche locale\n   push      Mettre \xc3\xa0 jour les r\xc3\xa9f\xc3\xa9rences distantes ainsi que les objets associ\xc3\xa9s\n\n'git help -a' et 'git help -g' listent les sous-commandes disponibles et\nquelques concepts. Voir 'git help <commande>' ou 'git help <concept>'\npour en lire plus \xc3\xa0 propos d'une commande sp\xc3\xa9cifique ou d'un concept.\nVoir 'git help git' pour un survol du syst\xc3\xa8me.\n""
+[0m12:17:08.047488 [debug] [MainThread]: STDERR: "b''"
+[0m12:17:08.047858 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:17:08.048160 [info ] [MainThread]: Connection:
+[0m12:17:08.048522 [info ] [MainThread]:   database: crypto_vault
+[0m12:17:08.048813 [info ] [MainThread]:   schema: main
+[0m12:17:08.049112 [info ] [MainThread]:   path: ../database/crypto_vault.db
+[0m12:17:08.049394 [info ] [MainThread]:   config_options: None
+[0m12:17:08.049665 [info ] [MainThread]:   extensions: None
+[0m12:17:08.049953 [info ] [MainThread]:   settings: {}
+[0m12:17:08.050212 [info ] [MainThread]:   external_root: .
+[0m12:17:08.050462 [info ] [MainThread]:   use_credential_provider: None
+[0m12:17:08.050716 [info ] [MainThread]:   attach: None
+[0m12:17:08.050983 [info ] [MainThread]:   filesystems: None
+[0m12:17:08.051226 [info ] [MainThread]:   remote: None
+[0m12:17:08.051488 [info ] [MainThread]:   plugins: None
+[0m12:17:08.051754 [info ] [MainThread]:   disable_transactions: False
+[0m12:17:08.052200 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m12:17:08.113236 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m12:17:08.134634 [debug] [MainThread]: Using duckdb connection "debug"
+[0m12:17:08.135054 [debug] [MainThread]: On debug: select 1 as id
+[0m12:17:08.135404 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:17:08.150045 [debug] [MainThread]: SQL status: OK in 0.015 seconds
+[0m12:17:08.151072 [debug] [MainThread]: On debug: Close
+[0m12:17:08.151467 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m12:17:08.151830 [info ] [MainThread]: [32mAll checks passed![0m
+[0m12:17:08.152726 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 0.4720549, "process_in_blocks": "992", "process_kernel_time": 0.172831, "process_mem_max_rss": "141764", "process_out_blocks": "16", "process_user_time": 1.885167}
+[0m12:17:08.153250 [debug] [MainThread]: Command `dbt debug` succeeded at 12:17:08.153144 after 0.47 seconds
+[0m12:17:08.153604 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:17:08.154043 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a897d1a4680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a897d4cfb30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a897c67dc70>]}
+[0m12:17:08.154480 [debug] [MainThread]: Flushing usage events
+[0m12:17:08.999153 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:20:46.207795 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71c87e38d0a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71c87f130e60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71c87e0abbc0>]}
+
+
+============================== 12:20:46.211161 | 7fc56fd2-54bb-47c3-8537-491e1d93c16b ==============================
+[0m12:20:46.211161 [info ] [MainThread]: Running with dbt=1.11.4
+[0m12:20:46.211735 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'log_path': '/home/gianotti/Documents/CryptoETL/dbt/logs', 'version_check': 'True', 'quiet': 'False', 'debug': 'False', 'profiles_dir': '.', 'target_path': 'None', 'fail_fast': 'False', 'empty': 'False', 'printer_width': '80', 'introspect': 'True', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'warn_error': 'None', 'write_json': 'True', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'partial_parse': 'True', 'invocation_command': 'dbt run --profiles-dir .', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_format': 'default', 'use_colors': 'True'}
+[0m12:20:46.485596 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7fc56fd2-54bb-47c3-8537-491e1d93c16b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71c87da76ab0>]}
+[0m12:20:46.574316 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7fc56fd2-54bb-47c3-8537-491e1d93c16b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71c87e11f170>]}
+[0m12:20:46.576167 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m12:20:46.644752 [debug] [MainThread]: checksum: 092b177ba87eb6bb3c55954c38aa57900eebac336561eb9ee32218428aa81d43, vars: {}, profile: , target: , version: 1.11.4
+[0m12:20:46.645524 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m12:20:46.645944 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '7fc56fd2-54bb-47c3-8537-491e1d93c16b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71c87daf7260>]}
+[0m12:20:47.734241 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '7fc56fd2-54bb-47c3-8537-491e1d93c16b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71c875bd80b0>]}
+[0m12:20:47.783925 [debug] [MainThread]: Wrote artifact WritableManifest to /home/gianotti/Documents/CryptoETL/dbt/target/manifest.json
+[0m12:20:47.785455 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/gianotti/Documents/CryptoETL/dbt/target/semantic_manifest.json
+[0m12:20:47.814019 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '7fc56fd2-54bb-47c3-8537-491e1d93c16b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71c875ba3bf0>]}
+[0m12:20:47.814574 [info ] [MainThread]: Found 1 model, 472 macros
+[0m12:20:47.814995 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7fc56fd2-54bb-47c3-8537-491e1d93c16b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71c875e1a0c0>]}
+[0m12:20:47.816958 [info ] [MainThread]: 
+[0m12:20:47.817361 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m12:20:47.817655 [info ] [MainThread]: 
+[0m12:20:47.818146 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m12:20:47.819081 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_crypto_vault'
+[0m12:20:47.859446 [debug] [ThreadPool]: Using duckdb connection "list_crypto_vault"
+[0m12:20:47.860314 [debug] [ThreadPool]: On list_crypto_vault: /* {"app": "dbt", "dbt_version": "1.11.4", "profile_name": "duckdb", "target_name": "dev", "connection_name": "list_crypto_vault"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"crypto_vault"'
+    
+  
+  
+[0m12:20:47.861125 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:20:47.884387 [debug] [ThreadPool]: SQL status: OK in 0.023 seconds
+[0m12:20:47.885978 [debug] [ThreadPool]: On list_crypto_vault: Close
+[0m12:20:47.886841 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_crypto_vault, now create_crypto_vault_main)
+[0m12:20:47.887387 [debug] [ThreadPool]: Creating schema "database: "crypto_vault"
+schema: "main"
+"
+[0m12:20:47.894342 [debug] [ThreadPool]: Using duckdb connection "create_crypto_vault_main"
+[0m12:20:47.894715 [debug] [ThreadPool]: On create_crypto_vault_main: /* {"app": "dbt", "dbt_version": "1.11.4", "profile_name": "duckdb", "target_name": "dev", "connection_name": "create_crypto_vault_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='crypto_vault'
+        and type='sqlite'
+    
+  
+[0m12:20:47.895066 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m12:20:47.896086 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m12:20:47.897303 [debug] [ThreadPool]: Using duckdb connection "create_crypto_vault_main"
+[0m12:20:47.897627 [debug] [ThreadPool]: On create_crypto_vault_main: BEGIN
+[0m12:20:47.898251 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m12:20:47.898576 [debug] [ThreadPool]: Using duckdb connection "create_crypto_vault_main"
+[0m12:20:47.898886 [debug] [ThreadPool]: On create_crypto_vault_main: /* {"app": "dbt", "dbt_version": "1.11.4", "profile_name": "duckdb", "target_name": "dev", "connection_name": "create_crypto_vault_main"} */
+
+    
+    
+        create schema if not exists "crypto_vault"."main"
+    
+[0m12:20:47.899394 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m12:20:47.900206 [debug] [ThreadPool]: On create_crypto_vault_main: COMMIT
+[0m12:20:47.900557 [debug] [ThreadPool]: Using duckdb connection "create_crypto_vault_main"
+[0m12:20:47.900870 [debug] [ThreadPool]: On create_crypto_vault_main: COMMIT
+[0m12:20:47.901340 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m12:20:47.901679 [debug] [ThreadPool]: On create_crypto_vault_main: Close
+[0m12:20:47.902798 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_crypto_vault_main, now list_crypto_vault_main)
+[0m12:20:47.909763 [debug] [ThreadPool]: Using duckdb connection "list_crypto_vault_main"
+[0m12:20:47.910174 [debug] [ThreadPool]: On list_crypto_vault_main: BEGIN
+[0m12:20:47.910510 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m12:20:47.911238 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m12:20:47.911549 [debug] [ThreadPool]: Using duckdb connection "list_crypto_vault_main"
+[0m12:20:47.911868 [debug] [ThreadPool]: On list_crypto_vault_main: /* {"app": "dbt", "dbt_version": "1.11.4", "profile_name": "duckdb", "target_name": "dev", "connection_name": "list_crypto_vault_main"} */
+select
+      'crypto_vault' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'crypto_vault'
+  
+[0m12:20:47.923103 [debug] [ThreadPool]: SQL status: OK in 0.011 seconds
+[0m12:20:47.924515 [debug] [ThreadPool]: On list_crypto_vault_main: ROLLBACK
+[0m12:20:47.925715 [debug] [ThreadPool]: Failed to rollback 'list_crypto_vault_main'
+[0m12:20:47.926083 [debug] [ThreadPool]: On list_crypto_vault_main: Close
+[0m12:20:47.927089 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7fc56fd2-54bb-47c3-8537-491e1d93c16b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71c875bb7800>]}
+[0m12:20:47.927616 [debug] [MainThread]: Using duckdb connection "master"
+[0m12:20:47.927969 [debug] [MainThread]: On master: BEGIN
+[0m12:20:47.928254 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:20:47.928916 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m12:20:47.929207 [debug] [MainThread]: On master: COMMIT
+[0m12:20:47.929489 [debug] [MainThread]: Using duckdb connection "master"
+[0m12:20:47.929752 [debug] [MainThread]: On master: COMMIT
+[0m12:20:47.930219 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m12:20:47.930539 [debug] [MainThread]: On master: Close
+[0m12:20:47.932501 [debug] [Thread-1 (]: Began running node model.CryptoETL.daily_candle
+[0m12:20:47.933046 [info ] [Thread-1 (]: 1 of 1 START sql view model main.daily_candle .................................. [RUN]
+[0m12:20:47.933491 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_crypto_vault_main, now model.CryptoETL.daily_candle)
+[0m12:20:47.933894 [debug] [Thread-1 (]: Began compiling node model.CryptoETL.daily_candle
+[0m12:20:47.940629 [debug] [Thread-1 (]: Writing injected SQL for node "model.CryptoETL.daily_candle"
+[0m12:20:47.941483 [debug] [Thread-1 (]: Began executing node model.CryptoETL.daily_candle
+[0m12:20:47.987260 [debug] [Thread-1 (]: Writing runtime sql for node "model.CryptoETL.daily_candle"
+[0m12:20:47.988466 [debug] [Thread-1 (]: Using duckdb connection "model.CryptoETL.daily_candle"
+[0m12:20:47.989158 [debug] [Thread-1 (]: On model.CryptoETL.daily_candle: BEGIN
+[0m12:20:47.989725 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:20:47.991229 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m12:20:47.991848 [debug] [Thread-1 (]: Using duckdb connection "model.CryptoETL.daily_candle"
+[0m12:20:47.992450 [debug] [Thread-1 (]: On model.CryptoETL.daily_candle: /* {"app": "dbt", "dbt_version": "1.11.4", "profile_name": "duckdb", "target_name": "dev", "node_id": "model.CryptoETL.daily_candle"} */
+
+  
+  create view "crypto_vault"."main"."daily_candle__dbt_tmp" as (
+    -- models/daily_candles.sql
+
+WITH raw_data AS (
+    SELECT 
+        epoch_ms(timestamp) as price_timestamp,
+        price
+    FROM raw_ethereum_prices
+),
+
+daily_prices AS (
+    SELECT 
+        date_trunc('day', price_timestamp) as day,
+        price,
+        price_timestamp,
+        ROW_NUMBER() OVER (PARTITION BY date_trunc('day', price_timestamp) ORDER BY price_timestamp ASC) as row_asc,
+        ROW_NUMBER() OVER (PARTITION BY date_trunc('day', price_timestamp) ORDER BY price_timestamp DESC) as row_desc
+    FROM raw_data
+)
+
+SELECT 
+    day,
+    MAX(CASE WHEN row_asc = 1 THEN price END) as open_price,
+    MAX(price) as high_price,
+    MIN(price) as low_price,
+    MAX(CASE WHEN row_desc = 1 THEN price END) as close_price,
+FROM daily_prices
+GROUP BY 1
+ORDER BY 1 DESC
+  );
+
+[0m12:20:47.994653 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m12:20:48.002449 [debug] [Thread-1 (]: Using duckdb connection "model.CryptoETL.daily_candle"
+[0m12:20:48.002890 [debug] [Thread-1 (]: On model.CryptoETL.daily_candle: /* {"app": "dbt", "dbt_version": "1.11.4", "profile_name": "duckdb", "target_name": "dev", "node_id": "model.CryptoETL.daily_candle"} */
+alter view "crypto_vault"."main"."daily_candle__dbt_tmp" rename to "daily_candle"
+[0m12:20:48.003703 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m12:20:48.013952 [debug] [Thread-1 (]: On model.CryptoETL.daily_candle: COMMIT
+[0m12:20:48.014329 [debug] [Thread-1 (]: Using duckdb connection "model.CryptoETL.daily_candle"
+[0m12:20:48.014684 [debug] [Thread-1 (]: On model.CryptoETL.daily_candle: COMMIT
+[0m12:20:48.018592 [debug] [Thread-1 (]: SQL status: OK in 0.003 seconds
+[0m12:20:48.023812 [debug] [Thread-1 (]: Using duckdb connection "model.CryptoETL.daily_candle"
+[0m12:20:48.024186 [debug] [Thread-1 (]: On model.CryptoETL.daily_candle: /* {"app": "dbt", "dbt_version": "1.11.4", "profile_name": "duckdb", "target_name": "dev", "node_id": "model.CryptoETL.daily_candle"} */
+
+      drop view if exists "crypto_vault"."main"."daily_candle__dbt_backup" cascade
+    
+[0m12:20:48.024881 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m12:20:48.027117 [debug] [Thread-1 (]: On model.CryptoETL.daily_candle: Close
+[0m12:20:48.029188 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7fc56fd2-54bb-47c3-8537-491e1d93c16b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71c875e83200>]}
+[0m12:20:48.029948 [info ] [Thread-1 (]: 1 of 1 OK created sql view model main.daily_candle ............................. [[32mOK[0m in 0.09s]
+[0m12:20:48.030575 [debug] [Thread-1 (]: Finished running node model.CryptoETL.daily_candle
+[0m12:20:48.031980 [debug] [MainThread]: Using duckdb connection "master"
+[0m12:20:48.032379 [debug] [MainThread]: On master: BEGIN
+[0m12:20:48.032895 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m12:20:48.033976 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m12:20:48.034449 [debug] [MainThread]: On master: COMMIT
+[0m12:20:48.034878 [debug] [MainThread]: Using duckdb connection "master"
+[0m12:20:48.035177 [debug] [MainThread]: On master: COMMIT
+[0m12:20:48.035736 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m12:20:48.036117 [debug] [MainThread]: On master: Close
+[0m12:20:48.036548 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:20:48.036878 [debug] [MainThread]: Connection 'model.CryptoETL.daily_candle' was properly closed.
+[0m12:20:48.037239 [info ] [MainThread]: 
+[0m12:20:48.037603 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.22 seconds (0.22s).
+[0m12:20:48.038339 [debug] [MainThread]: Command end result
+[0m12:20:48.066360 [debug] [MainThread]: Wrote artifact WritableManifest to /home/gianotti/Documents/CryptoETL/dbt/target/manifest.json
+[0m12:20:48.069173 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/gianotti/Documents/CryptoETL/dbt/target/semantic_manifest.json
+[0m12:20:48.079480 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/gianotti/Documents/CryptoETL/dbt/target/run_results.json
+[0m12:20:48.080072 [info ] [MainThread]: 
+[0m12:20:48.080663 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m12:20:48.081153 [info ] [MainThread]: 
+[0m12:20:48.081649 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m12:20:48.082874 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 1.9501107, "process_in_blocks": "1192", "process_kernel_time": 0.21991, "process_mem_max_rss": "153356", "process_out_blocks": "3176", "process_user_time": 3.254681}
+[0m12:20:48.083604 [debug] [MainThread]: Command `dbt run` succeeded at 12:20:48.083456 after 1.95 seconds
+[0m12:20:48.084196 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71c87e29a240>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71c87e1ca360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71c85f035c10>]}
+[0m12:20:48.084734 [debug] [MainThread]: Flushing usage events
+[0m12:20:48.954482 [debug] [MainThread]: An error was encountered while trying to flush usage events
