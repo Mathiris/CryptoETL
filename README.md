@@ -13,15 +13,15 @@ Get Started
 
 Place yourself in the CryptoETL directory and run the following commands:
 
-*   make install: Initializes the Python environment and synchronizes dependencies using **uv**.
+*   make install : Initializes the Python environment and synchronizes dependencies using **uv**.
     
-*   make run-ingestion: Executes the Python extraction script and populates the **DuckDB** database.
+*   make run-ingestion : Executes the Python extraction script and populates the **DuckDB** database.
     
-*   make run-dbt: Runs the dbt transformation models and executes data quality tests.
+*   make run-dbt : Runs the dbt transformation models and executes data quality tests.
     
-*   make run-viz: Launches the **Streamlit** dashboard to visualize the processed data.
+*   make run-viz : Launches the **Streamlit** dashboard to visualize the processed data.
     
-*   make run-airflow: Starts Airflow in **standalone** mode to monitor the eth\_daily\_pipeline DAG.
+*   make run-airflow : Starts Airflow in **standalone** mode to monitor the eth\_daily\_pipeline DAG.
     
 
 Design Decisions & Approach
