@@ -1,7 +1,16 @@
 
   
-  create view "crypto_vault"."main"."daily_candle__dbt_tmp" as (
-    -- models/daily_candles.sql
+    
+    
+
+    create  table
+      "crypto_vault"."main"."daily_candle__dbt_tmp"
+  
+    as (
+      -- models/daily_candles.sql
+
+
+
 
 WITH raw_data AS (
     SELECT 
@@ -18,15 +27,25 @@ daily_prices AS (
         ROW_NUMBER() OVER (PARTITION BY date_trunc('day', price_timestamp) ORDER BY price_timestamp ASC) as row_asc,
         ROW_NUMBER() OVER (PARTITION BY date_trunc('day', price_timestamp) ORDER BY price_timestamp DESC) as row_desc
     FROM raw_data
+),
+
+
+final AS (
+    SELECT 
+        day,
+        MAX(CASE WHEN row_asc = 1 THEN price END) as open_price,
+        MAX(price) as high_price,
+        MIN(price) as low_price,
+        MAX(CASE WHEN row_desc = 1 THEN price END) as close_price
+    FROM daily_prices
+    GROUP BY 1
 )
 
 SELECT 
-    day,
-    MAX(CASE WHEN row_asc = 1 THEN price END) as open_price,
-    MAX(price) as high_price,
-    MIN(price) as low_price,
-    MAX(CASE WHEN row_desc = 1 THEN price END) as close_price,
-FROM daily_prices
-GROUP BY 1
-ORDER BY 1 DESC
-  );
+    *,
+    ROUND(((close_price - open_price) / open_price) * 100, 2) as percentage 
+FROM final
+ORDER BY day DESC
+    );
+  
+  

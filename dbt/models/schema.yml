@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: daily_candle
+    description: "dailycandle table"
+    columns:
+      - name: day
+        description: "day must be unique and not null"
+        tests:
+          - unique
+          - not_null
+
+      - name: high_price
+        description: "price must be not null"
+        tests:
+          - not_null
+
+      - name: low_price
+        description: "price must be not null"
+        tests:
+          - not_null
