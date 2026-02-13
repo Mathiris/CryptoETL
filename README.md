@@ -50,7 +50,7 @@ ETL Process
 
 The initial goal was to use **Airbyte** via the PyAirbyte connector. However, during implementation, I encountered significant schema and date-parsing issues with the CoinGecko connector despite following the documentation.
 
-**Pragmatic Pivot:** To ensure project delivery and focus on the transformation logic, I switched to a custom Python extraction script using the CoinGecko API.
+To ensure project delivery and focus on the transformation logic, I switched to a custom Python extraction script using the CoinGecko API.
 
 *   **Incremental Strategy**: I implemented a logic to insert only new records based on the latest timestamp to ensure a clean, duplicate-free history in DuckDB.
     
